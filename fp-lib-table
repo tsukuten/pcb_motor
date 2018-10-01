@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name MountingHole_Mask)(type KiCad)(uri ${KIPRJMOD}/MountingHole_Mask.pretty)(options "")(descr ""))
+  (lib (name Heatsink_GEC)(type KiCad)(uri ${KIPRJMOD}/Heatsink_GEC.pretty)(options "")(descr ""))
+)

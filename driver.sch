@@ -22,7 +22,7 @@ AR Path="/5BA05193" Ref="Q?"  Part="1"
 AR Path="/5BA04E0C/5BA05193" Ref="Q64"  Part="1" 
 F 0 "Q64" H 4606 1654 50  0000 L CNN
 F 1 "IRFU5505" H 4606 1745 50  0000 L CNN
-F 2 "" H 4600 1800 50  0001 C CNN
+F 2 "Package_TO_SOT_THT:TO-251-3_Vertical" H 4600 1800 50  0001 C CNN
 F 3 "~" H 4400 1700 50  0001 C CNN
 	1    4400 1700
 	-1   0    0    1   
@@ -35,7 +35,7 @@ AR Path="/5BA0519A" Ref="Q?"  Part="1"
 AR Path="/5BA04E0C/5BA0519A" Ref="Q63"  Part="1" 
 F 0 "Q63" H 3205 1654 50  0000 L CNN
 F 1 "IRFU5505" H 3205 1745 50  0000 L CNN
-F 2 "" H 3200 1800 50  0001 C CNN
+F 2 "Package_TO_SOT_THT:TO-251-3_Vertical" H 3200 1800 50  0001 C CNN
 F 3 "~" H 3000 1700 50  0001 C CNN
 	1    3000 1700
 	1    0    0    1   
@@ -48,7 +48,7 @@ AR Path="/5BA051A1" Ref="R?"  Part="1"
 AR Path="/5BA04E0C/5BA051A1" Ref="R68"  Part="1" 
 F 0 "R68" V 2304 1700 50  0000 C CNN
 F 1 "10k" V 2395 1700 50  0000 C CNN
-F 2 "" H 2500 1700 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 2500 1700 50  0001 C CNN
 F 3 "~" H 2500 1700 50  0001 C CNN
 	1    2500 1700
 	0    1    1    0   
@@ -61,7 +61,7 @@ AR Path="/5BA051A8" Ref="Q?"  Part="1"
 AR Path="/5BA04E0C/5BA051A8" Ref="Q61"  Part="1" 
 F 0 "Q61" H 2291 1254 50  0000 L CNN
 F 1 "2SA1015" H 2291 1345 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2300 1225 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 2300 1225 50  0001 L CIN
 F 3 "http://www.datasheetcatalog.org/datasheet/toshiba/905.pdf" H 2100 1300 50  0001 L CNN
 	1    2100 1300
 	1    0    0    1   
@@ -87,7 +87,7 @@ AR Path="/5BA051B5" Ref="R?"  Part="1"
 AR Path="/5BA04E0C/5BA051B5" Ref="R61"  Part="1" 
 F 0 "R61" V 1404 1300 50  0000 C CNN
 F 1 "1k" V 1495 1300 50  0000 C CNN
-F 2 "" H 1600 1300 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 1600 1300 50  0001 C CNN
 F 3 "~" H 1600 1300 50  0001 C CNN
 	1    1600 1300
 	0    1    1    0   
@@ -100,7 +100,7 @@ AR Path="/5BA051BC" Ref="R?"  Part="1"
 AR Path="/5BA04E0C/5BA051BC" Ref="R65"  Part="1" 
 F 0 "R65" H 1359 1646 50  0000 L CNN
 F 1 "47k" H 1359 1555 50  0000 L CNN
-F 2 "" H 1300 1600 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 1300 1600 50  0001 C CNN
 F 3 "~" H 1300 1600 50  0001 C CNN
 	1    1300 1600
 	1    0    0    -1  
@@ -155,7 +155,7 @@ AR Path="/5BA051D7" Ref="Q?"  Part="1"
 AR Path="/5BA04E0C/5BA051D7" Ref="Q65"  Part="1" 
 F 0 "Q65" H 3206 2746 50  0000 L CNN
 F 1 "FKI10531" H 3206 2655 50  0000 L CNN
-F 2 "" H 3200 2800 50  0001 C CNN
+F 2 "Package_TO_SOT_THT:TO-220F-3_Vertical" H 3200 2800 50  0001 C CNN
 F 3 "~" H 3000 2700 50  0001 C CNN
 	1    3000 2700
 	1    0    0    -1  
@@ -168,7 +168,7 @@ AR Path="/5BA051DE" Ref="R?"  Part="1"
 AR Path="/5BA04E0C/5BA051DE" Ref="R72"  Part="1" 
 F 0 "R72" V 2304 2700 50  0000 C CNN
 F 1 "10k" V 2395 2700 50  0000 C CNN
-F 2 "" H 2500 2700 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 2500 2700 50  0001 C CNN
 F 3 "~" H 2500 2700 50  0001 C CNN
 	1    2500 2700
 	0    1    1    0   
@@ -181,7 +181,7 @@ AR Path="/5BA051E5" Ref="Q?"  Part="1"
 AR Path="/5BA04E0C/5BA051E5" Ref="Q67"  Part="1" 
 F 0 "Q67" H 2291 3146 50  0000 L CNN
 F 1 "2SC1815" H 2291 3055 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2300 3025 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 2300 3025 50  0001 L CIN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf" H 2100 3100 50  0001 L CNN
 	1    2100 3100
 	1    0    0    -1  
@@ -220,7 +220,7 @@ AR Path="/5BA051F8" Ref="R?"  Part="1"
 AR Path="/5BA04E0C/5BA051F8" Ref="R67"  Part="1" 
 F 0 "R67" V 1704 1700 50  0000 C CNN
 F 1 "10k" V 1795 1700 50  0000 C CNN
-F 2 "" H 1900 1700 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 1900 1700 50  0001 C CNN
 F 3 "~" H 1900 1700 50  0001 C CNN
 	1    1900 1700
 	0    1    1    0   
@@ -240,7 +240,7 @@ AR Path="/5BA05203" Ref="R?"  Part="1"
 AR Path="/5BA04E0C/5BA05203" Ref="R71"  Part="1" 
 F 0 "R71" V 1704 2700 50  0000 C CNN
 F 1 "10k" V 1795 2700 50  0000 C CNN
-F 2 "" H 1900 2700 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 1900 2700 50  0001 C CNN
 F 3 "~" H 1900 2700 50  0001 C CNN
 	1    1900 2700
 	0    1    1    0   
@@ -268,7 +268,7 @@ AR Path="/5BA05212" Ref="R?"  Part="1"
 AR Path="/5BA04E0C/5BA05212" Ref="R77"  Part="1" 
 F 0 "R77" V 1404 3100 50  0000 C CNN
 F 1 "1k" V 1495 3100 50  0000 C CNN
-F 2 "" H 1600 3100 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 1600 3100 50  0001 C CNN
 F 3 "~" H 1600 3100 50  0001 C CNN
 	1    1600 3100
 	0    1    1    0   
@@ -281,7 +281,7 @@ AR Path="/5BA05219" Ref="R?"  Part="1"
 AR Path="/5BA04E0C/5BA05219" Ref="R75"  Part="1" 
 F 0 "R75" H 1359 2846 50  0000 L CNN
 F 1 "47k" H 1359 2755 50  0000 L CNN
-F 2 "" H 1300 2800 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 1300 2800 50  0001 C CNN
 F 3 "~" H 1300 2800 50  0001 C CNN
 	1    1300 2800
 	1    0    0    -1  
@@ -350,7 +350,7 @@ AR Path="/5BA05244" Ref="R?"  Part="1"
 AR Path="/5BA04E0C/5BA05244" Ref="R69"  Part="1" 
 F 0 "R69" V 4704 1700 50  0000 C CNN
 F 1 "10k" V 4795 1700 50  0000 C CNN
-F 2 "" H 4900 1700 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 4900 1700 50  0001 C CNN
 F 3 "~" H 4900 1700 50  0001 C CNN
 	1    4900 1700
 	0    -1   1    0   
@@ -363,7 +363,7 @@ AR Path="/5BA0524B" Ref="Q?"  Part="1"
 AR Path="/5BA04E0C/5BA0524B" Ref="Q62"  Part="1" 
 F 0 "Q62" H 5491 1254 50  0000 L CNN
 F 1 "2SA1015" H 5491 1345 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5500 1225 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 5500 1225 50  0001 L CIN
 F 3 "http://www.datasheetcatalog.org/datasheet/toshiba/905.pdf" H 5300 1300 50  0001 L CNN
 	1    5300 1300
 	-1   0    0    1   
@@ -389,7 +389,7 @@ AR Path="/5BA05258" Ref="R?"  Part="1"
 AR Path="/5BA04E0C/5BA05258" Ref="R62"  Part="1" 
 F 0 "R62" V 5604 1300 50  0000 C CNN
 F 1 "1k" V 5695 1300 50  0000 C CNN
-F 2 "" H 5800 1300 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 5800 1300 50  0001 C CNN
 F 3 "~" H 5800 1300 50  0001 C CNN
 	1    5800 1300
 	0    -1   1    0   
@@ -402,7 +402,7 @@ AR Path="/5BA0525F" Ref="R?"  Part="1"
 AR Path="/5BA04E0C/5BA0525F" Ref="R66"  Part="1" 
 F 0 "R66" H 6159 1646 50  0000 L CNN
 F 1 "47k" H 6159 1555 50  0000 L CNN
-F 2 "" H 6100 1600 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 6100 1600 50  0001 C CNN
 F 3 "~" H 6100 1600 50  0001 C CNN
 	1    6100 1600
 	-1   0    0    -1  
@@ -457,7 +457,7 @@ AR Path="/5BA0527A" Ref="R?"  Part="1"
 AR Path="/5BA04E0C/5BA0527A" Ref="R73"  Part="1" 
 F 0 "R73" V 4704 2700 50  0000 C CNN
 F 1 "10k" V 4795 2700 50  0000 C CNN
-F 2 "" H 4900 2700 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 4900 2700 50  0001 C CNN
 F 3 "~" H 4900 2700 50  0001 C CNN
 	1    4900 2700
 	0    -1   1    0   
@@ -470,7 +470,7 @@ AR Path="/5BA05281" Ref="Q?"  Part="1"
 AR Path="/5BA04E0C/5BA05281" Ref="Q68"  Part="1" 
 F 0 "Q68" H 5491 3146 50  0000 L CNN
 F 1 "2SC1815" H 5491 3055 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5500 3025 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 5500 3025 50  0001 L CIN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf" H 5300 3100 50  0001 L CNN
 	1    5300 3100
 	-1   0    0    -1  
@@ -509,7 +509,7 @@ AR Path="/5BA05294" Ref="R?"  Part="1"
 AR Path="/5BA04E0C/5BA05294" Ref="R70"  Part="1" 
 F 0 "R70" V 5304 1700 50  0000 C CNN
 F 1 "10k" V 5395 1700 50  0000 C CNN
-F 2 "" H 5500 1700 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 5500 1700 50  0001 C CNN
 F 3 "~" H 5500 1700 50  0001 C CNN
 	1    5500 1700
 	0    -1   1    0   
@@ -529,7 +529,7 @@ AR Path="/5BA0529F" Ref="R?"  Part="1"
 AR Path="/5BA04E0C/5BA0529F" Ref="R74"  Part="1" 
 F 0 "R74" V 5304 2700 50  0000 C CNN
 F 1 "10k" V 5395 2700 50  0000 C CNN
-F 2 "" H 5500 2700 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 5500 2700 50  0001 C CNN
 F 3 "~" H 5500 2700 50  0001 C CNN
 	1    5500 2700
 	0    -1   1    0   
@@ -557,7 +557,7 @@ AR Path="/5BA052AE" Ref="R?"  Part="1"
 AR Path="/5BA04E0C/5BA052AE" Ref="R78"  Part="1" 
 F 0 "R78" V 5604 3100 50  0000 C CNN
 F 1 "1k" V 5695 3100 50  0000 C CNN
-F 2 "" H 5800 3100 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 5800 3100 50  0001 C CNN
 F 3 "~" H 5800 3100 50  0001 C CNN
 	1    5800 3100
 	0    -1   1    0   
@@ -570,7 +570,7 @@ AR Path="/5BA052B5" Ref="R?"  Part="1"
 AR Path="/5BA04E0C/5BA052B5" Ref="R76"  Part="1" 
 F 0 "R76" H 6159 2846 50  0000 L CNN
 F 1 "47k" H 6159 2755 50  0000 L CNN
-F 2 "" H 6100 2800 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 6100 2800 50  0001 C CNN
 F 3 "~" H 6100 2800 50  0001 C CNN
 	1    6100 2800
 	-1   0    0    -1  
@@ -632,7 +632,7 @@ AR Path="/5BA052D6" Ref="Q?"  Part="1"
 AR Path="/5BA04E0C/5BA052D6" Ref="Q72"  Part="1" 
 F 0 "Q72" H 4606 5054 50  0000 L CNN
 F 1 "IRFU5505" H 4606 5145 50  0000 L CNN
-F 2 "" H 4600 5200 50  0001 C CNN
+F 2 "Package_TO_SOT_THT:TO-251-3_Vertical" H 4600 5200 50  0001 C CNN
 F 3 "~" H 4400 5100 50  0001 C CNN
 	1    4400 5100
 	-1   0    0    1   
@@ -645,7 +645,7 @@ AR Path="/5BA052DD" Ref="Q?"  Part="1"
 AR Path="/5BA04E0C/5BA052DD" Ref="Q71"  Part="1" 
 F 0 "Q71" H 3205 5054 50  0000 L CNN
 F 1 "IRFU5505" H 3205 5145 50  0000 L CNN
-F 2 "" H 3200 5200 50  0001 C CNN
+F 2 "Package_TO_SOT_THT:TO-251-3_Vertical" H 3200 5200 50  0001 C CNN
 F 3 "~" H 3000 5100 50  0001 C CNN
 	1    3000 5100
 	1    0    0    1   
@@ -658,7 +658,7 @@ AR Path="/5BA052E4" Ref="R?"  Part="1"
 AR Path="/5BA04E0C/5BA052E4" Ref="R84"  Part="1" 
 F 0 "R84" V 2304 5100 50  0000 C CNN
 F 1 "10k" V 2395 5100 50  0000 C CNN
-F 2 "" H 2500 5100 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 2500 5100 50  0001 C CNN
 F 3 "~" H 2500 5100 50  0001 C CNN
 	1    2500 5100
 	0    1    1    0   
@@ -671,7 +671,7 @@ AR Path="/5BA052EB" Ref="Q?"  Part="1"
 AR Path="/5BA04E0C/5BA052EB" Ref="Q69"  Part="1" 
 F 0 "Q69" H 2291 4654 50  0000 L CNN
 F 1 "2SA1015" H 2291 4745 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2300 4625 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 2300 4625 50  0001 L CIN
 F 3 "http://www.datasheetcatalog.org/datasheet/toshiba/905.pdf" H 2100 4700 50  0001 L CNN
 	1    2100 4700
 	1    0    0    1   
@@ -697,7 +697,7 @@ AR Path="/5BA052F8" Ref="R?"  Part="1"
 AR Path="/5BA04E0C/5BA052F8" Ref="R79"  Part="1" 
 F 0 "R79" V 1404 4700 50  0000 C CNN
 F 1 "1k" V 1495 4700 50  0000 C CNN
-F 2 "" H 1600 4700 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 1600 4700 50  0001 C CNN
 F 3 "~" H 1600 4700 50  0001 C CNN
 	1    1600 4700
 	0    1    1    0   
@@ -710,7 +710,7 @@ AR Path="/5BA052FF" Ref="R?"  Part="1"
 AR Path="/5BA04E0C/5BA052FF" Ref="R81"  Part="1" 
 F 0 "R81" H 1359 5046 50  0000 L CNN
 F 1 "47k" H 1359 4955 50  0000 L CNN
-F 2 "" H 1300 5000 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 1300 5000 50  0001 C CNN
 F 3 "~" H 1300 5000 50  0001 C CNN
 	1    1300 5000
 	1    0    0    -1  
@@ -765,7 +765,7 @@ AR Path="/5BA0531A" Ref="Q?"  Part="1"
 AR Path="/5BA04E0C/5BA0531A" Ref="Q73"  Part="1" 
 F 0 "Q73" H 3206 6146 50  0000 L CNN
 F 1 "FKI10531" H 3206 6055 50  0000 L CNN
-F 2 "" H 3200 6200 50  0001 C CNN
+F 2 "Package_TO_SOT_THT:TO-220F-3_Vertical" H 3200 6200 50  0001 C CNN
 F 3 "~" H 3000 6100 50  0001 C CNN
 	1    3000 6100
 	1    0    0    -1  
@@ -778,7 +778,7 @@ AR Path="/5BA05321" Ref="R?"  Part="1"
 AR Path="/5BA04E0C/5BA05321" Ref="R88"  Part="1" 
 F 0 "R88" V 2304 6100 50  0000 C CNN
 F 1 "10k" V 2395 6100 50  0000 C CNN
-F 2 "" H 2500 6100 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 2500 6100 50  0001 C CNN
 F 3 "~" H 2500 6100 50  0001 C CNN
 	1    2500 6100
 	0    1    1    0   
@@ -791,7 +791,7 @@ AR Path="/5BA05328" Ref="Q?"  Part="1"
 AR Path="/5BA04E0C/5BA05328" Ref="Q75"  Part="1" 
 F 0 "Q75" H 2291 6546 50  0000 L CNN
 F 1 "2SC1815" H 2291 6455 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2300 6425 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 2300 6425 50  0001 L CIN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf" H 2100 6500 50  0001 L CNN
 	1    2100 6500
 	1    0    0    -1  
@@ -830,7 +830,7 @@ AR Path="/5BA0533B" Ref="R?"  Part="1"
 AR Path="/5BA04E0C/5BA0533B" Ref="R83"  Part="1" 
 F 0 "R83" V 1704 5100 50  0000 C CNN
 F 1 "10k" V 1795 5100 50  0000 C CNN
-F 2 "" H 1900 5100 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 1900 5100 50  0001 C CNN
 F 3 "~" H 1900 5100 50  0001 C CNN
 	1    1900 5100
 	0    1    1    0   
@@ -850,7 +850,7 @@ AR Path="/5BA05346" Ref="R?"  Part="1"
 AR Path="/5BA04E0C/5BA05346" Ref="R87"  Part="1" 
 F 0 "R87" V 1704 6100 50  0000 C CNN
 F 1 "10k" V 1795 6100 50  0000 C CNN
-F 2 "" H 1900 6100 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 1900 6100 50  0001 C CNN
 F 3 "~" H 1900 6100 50  0001 C CNN
 	1    1900 6100
 	0    1    1    0   
@@ -878,7 +878,7 @@ AR Path="/5BA05355" Ref="R?"  Part="1"
 AR Path="/5BA04E0C/5BA05355" Ref="R93"  Part="1" 
 F 0 "R93" V 1404 6500 50  0000 C CNN
 F 1 "1k" V 1495 6500 50  0000 C CNN
-F 2 "" H 1600 6500 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 1600 6500 50  0001 C CNN
 F 3 "~" H 1600 6500 50  0001 C CNN
 	1    1600 6500
 	0    1    1    0   
@@ -891,7 +891,7 @@ AR Path="/5BA0535C" Ref="R?"  Part="1"
 AR Path="/5BA04E0C/5BA0535C" Ref="R91"  Part="1" 
 F 0 "R91" H 1359 6246 50  0000 L CNN
 F 1 "47k" H 1359 6155 50  0000 L CNN
-F 2 "" H 1300 6200 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 1300 6200 50  0001 C CNN
 F 3 "~" H 1300 6200 50  0001 C CNN
 	1    1300 6200
 	1    0    0    -1  
@@ -929,7 +929,7 @@ AR Path="/5BA0536F" Ref="Q?"  Part="1"
 AR Path="/5BA04E0C/5BA0536F" Ref="Q74"  Part="1" 
 F 0 "Q74" H 4606 6146 50  0000 L CNN
 F 1 "FKI10531" H 4606 6055 50  0000 L CNN
-F 2 "" H 4600 6200 50  0001 C CNN
+F 2 "Package_TO_SOT_THT:TO-220F-3_Vertical" H 4600 6200 50  0001 C CNN
 F 3 "~" H 4400 6100 50  0001 C CNN
 	1    4400 6100
 	-1   0    0    -1  
@@ -973,7 +973,7 @@ AR Path="/5BA05387" Ref="R?"  Part="1"
 AR Path="/5BA04E0C/5BA05387" Ref="R85"  Part="1" 
 F 0 "R85" V 4704 5100 50  0000 C CNN
 F 1 "10k" V 4795 5100 50  0000 C CNN
-F 2 "" H 4900 5100 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 4900 5100 50  0001 C CNN
 F 3 "~" H 4900 5100 50  0001 C CNN
 	1    4900 5100
 	0    -1   1    0   
@@ -986,7 +986,7 @@ AR Path="/5BA0538E" Ref="Q?"  Part="1"
 AR Path="/5BA04E0C/5BA0538E" Ref="Q70"  Part="1" 
 F 0 "Q70" H 5491 4654 50  0000 L CNN
 F 1 "2SA1015" H 5491 4745 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5500 4625 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 5500 4625 50  0001 L CIN
 F 3 "http://www.datasheetcatalog.org/datasheet/toshiba/905.pdf" H 5300 4700 50  0001 L CNN
 	1    5300 4700
 	-1   0    0    1   
@@ -1012,7 +1012,7 @@ AR Path="/5BA0539B" Ref="R?"  Part="1"
 AR Path="/5BA04E0C/5BA0539B" Ref="R80"  Part="1" 
 F 0 "R80" V 5604 4700 50  0000 C CNN
 F 1 "1k" V 5695 4700 50  0000 C CNN
-F 2 "" H 5800 4700 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 5800 4700 50  0001 C CNN
 F 3 "~" H 5800 4700 50  0001 C CNN
 	1    5800 4700
 	0    -1   1    0   
@@ -1025,7 +1025,7 @@ AR Path="/5BA053A2" Ref="R?"  Part="1"
 AR Path="/5BA04E0C/5BA053A2" Ref="R82"  Part="1" 
 F 0 "R82" H 6159 5046 50  0000 L CNN
 F 1 "47k" H 6159 4955 50  0000 L CNN
-F 2 "" H 6100 5000 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 6100 5000 50  0001 C CNN
 F 3 "~" H 6100 5000 50  0001 C CNN
 	1    6100 5000
 	-1   0    0    -1  
@@ -1080,7 +1080,7 @@ AR Path="/5BA053BD" Ref="R?"  Part="1"
 AR Path="/5BA04E0C/5BA053BD" Ref="R89"  Part="1" 
 F 0 "R89" V 4704 6100 50  0000 C CNN
 F 1 "10k" V 4795 6100 50  0000 C CNN
-F 2 "" H 4900 6100 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 4900 6100 50  0001 C CNN
 F 3 "~" H 4900 6100 50  0001 C CNN
 	1    4900 6100
 	0    -1   1    0   
@@ -1093,7 +1093,7 @@ AR Path="/5BA053C4" Ref="Q?"  Part="1"
 AR Path="/5BA04E0C/5BA053C4" Ref="Q76"  Part="1" 
 F 0 "Q76" H 5491 6546 50  0000 L CNN
 F 1 "2SC1815" H 5491 6455 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5500 6425 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 5500 6425 50  0001 L CIN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf" H 5300 6500 50  0001 L CNN
 	1    5300 6500
 	-1   0    0    -1  
@@ -1132,7 +1132,7 @@ AR Path="/5BA053D7" Ref="R?"  Part="1"
 AR Path="/5BA04E0C/5BA053D7" Ref="R86"  Part="1" 
 F 0 "R86" V 5304 5100 50  0000 C CNN
 F 1 "10k" V 5395 5100 50  0000 C CNN
-F 2 "" H 5500 5100 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 5500 5100 50  0001 C CNN
 F 3 "~" H 5500 5100 50  0001 C CNN
 	1    5500 5100
 	0    -1   1    0   
@@ -1152,7 +1152,7 @@ AR Path="/5BA053E2" Ref="R?"  Part="1"
 AR Path="/5BA04E0C/5BA053E2" Ref="R90"  Part="1" 
 F 0 "R90" V 5304 6100 50  0000 C CNN
 F 1 "10k" V 5395 6100 50  0000 C CNN
-F 2 "" H 5500 6100 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 5500 6100 50  0001 C CNN
 F 3 "~" H 5500 6100 50  0001 C CNN
 	1    5500 6100
 	0    -1   1    0   
@@ -1180,7 +1180,7 @@ AR Path="/5BA053F1" Ref="R?"  Part="1"
 AR Path="/5BA04E0C/5BA053F1" Ref="R94"  Part="1" 
 F 0 "R94" V 5604 6500 50  0000 C CNN
 F 1 "1k" V 5695 6500 50  0000 C CNN
-F 2 "" H 5800 6500 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 5800 6500 50  0001 C CNN
 F 3 "~" H 5800 6500 50  0001 C CNN
 	1    5800 6500
 	0    -1   1    0   
@@ -1193,7 +1193,7 @@ AR Path="/5BA053F8" Ref="R?"  Part="1"
 AR Path="/5BA04E0C/5BA053F8" Ref="R92"  Part="1" 
 F 0 "R92" H 6159 6246 50  0000 L CNN
 F 1 "47k" H 6159 6155 50  0000 L CNN
-F 2 "" H 6100 6200 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 6100 6200 50  0001 C CNN
 F 3 "~" H 6100 6200 50  0001 C CNN
 	1    6100 6200
 	-1   0    0    -1  
@@ -1267,7 +1267,7 @@ AR Path="/5BA05420" Ref="D?"  Part="1"
 AR Path="/5BA04E0C/5BA05420" Ref="D61"  Part="1" 
 F 0 "D61" V 8046 1568 50  0000 L CNN
 F 1 "1N5338B" V 7955 1568 50  0000 L CNN
-F 2 "" V 8000 1500 50  0001 C CNN
+F 2 "Diode_THT:D_5W_P5.08mm_Vertical_AnodeUp" V 8000 1500 50  0001 C CNN
 F 3 "~" V 8000 1500 50  0001 C CNN
 	1    8000 1500
 	0    -1   -1   0   
@@ -1282,7 +1282,7 @@ AR Path="/5BA05428" Ref="D?"  Part="1"
 AR Path="/5BA04E0C/5BA05428" Ref="D63"  Part="1" 
 F 0 "D63" V 7954 1932 50  0000 R CNN
 F 1 "1N5338B" V 8045 1932 50  0000 R CNN
-F 2 "" V 8000 2000 50  0001 C CNN
+F 2 "Diode_THT:D_5W_P5.08mm_Vertical_AnodeUp" V 8000 2000 50  0001 C CNN
 F 3 "~" V 8000 2000 50  0001 C CNN
 	1    8000 2000
 	0    1    1    0   
@@ -1295,7 +1295,7 @@ AR Path="/5BA0542F" Ref="J?"  Part="1"
 AR Path="/5BA04E0C/5BA0542F" Ref="J61"  Part="1" 
 F 0 "J61" H 9019 1917 50  0000 C CNN
 F 1 "Motor_A" H 9019 1826 50  0000 C CNN
-F 2 "" H 9100 1700 50  0001 C CNN
+F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Vertical" H 9100 1700 50  0001 C CNN
 F 3 "~" H 9100 1700 50  0001 C CNN
 	1    9100 1700
 	1    0    0    -1  
@@ -1336,7 +1336,7 @@ AR Path="/5BA05445" Ref="D?"  Part="1"
 AR Path="/5BA04E0C/5BA05445" Ref="D62"  Part="1" 
 F 0 "D62" V 10546 1568 50  0000 L CNN
 F 1 "1N5338B" V 10455 1568 50  0000 L CNN
-F 2 "" V 10500 1500 50  0001 C CNN
+F 2 "Diode_THT:D_5W_P5.08mm_Vertical_AnodeUp" V 10500 1500 50  0001 C CNN
 F 3 "~" V 10500 1500 50  0001 C CNN
 	1    10500 1500
 	0    1    -1   0   
@@ -1349,7 +1349,7 @@ AR Path="/5BA0544C" Ref="D?"  Part="1"
 AR Path="/5BA04E0C/5BA0544C" Ref="D64"  Part="1" 
 F 0 "D64" V 10454 1932 50  0000 R CNN
 F 1 "1N5338B" V 10545 1932 50  0000 R CNN
-F 2 "" V 10500 2000 50  0001 C CNN
+F 2 "Diode_THT:D_5W_P5.08mm_Vertical_AnodeUp" V 10500 2000 50  0001 C CNN
 F 3 "~" V 10500 2000 50  0001 C CNN
 	1    10500 2000
 	0    -1   1    0   
@@ -1362,7 +1362,7 @@ AR Path="/5BA05453" Ref="J?"  Part="1"
 AR Path="/5BA04E0C/5BA05453" Ref="J62"  Part="1" 
 F 0 "J62" H 9320 1917 50  0000 C CNN
 F 1 "Motor_B" H 9320 1826 50  0000 C CNN
-F 2 "" H 9400 1700 50  0001 C CNN
+F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Vertical" H 9400 1700 50  0001 C CNN
 F 3 "~" H 9400 1700 50  0001 C CNN
 	1    9400 1700
 	-1   0    0    -1  
@@ -1395,7 +1395,7 @@ AR Path="/5BA05468" Ref="J?"  Part="1"
 AR Path="/5BA04E0C/5BA05468" Ref="J63"  Part="1" 
 F 0 "J63" H 9179 3692 50  0000 L CNN
 F 1 "Test_A_POS_P_Vds" H 9179 3601 50  0000 L CNN
-F 2 "" H 9100 3700 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 9100 3700 50  0001 C CNN
 F 3 "~" H 9100 3700 50  0001 C CNN
 	1    9100 3700
 	1    0    0    -1  
@@ -1408,7 +1408,7 @@ AR Path="/5BA0546F" Ref="J?"  Part="1"
 AR Path="/5BA04E0C/5BA0546F" Ref="J64"  Part="1" 
 F 0 "J64" H 9179 3992 50  0000 L CNN
 F 1 "Test_A_POS_N_Vds" H 9179 3901 50  0000 L CNN
-F 2 "" H 9100 4000 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 9100 4000 50  0001 C CNN
 F 3 "~" H 9100 4000 50  0001 C CNN
 	1    9100 4000
 	1    0    0    -1  
@@ -1440,7 +1440,7 @@ AR Path="/5BBACDA6" Ref="J?"  Part="1"
 AR Path="/5BA04E0C/5BBACDA6" Ref="J66"  Part="1" 
 F 0 "J66" H 10679 4592 50  0000 L CNN
 F 1 "Test_V-_A" H 10679 4501 50  0000 L CNN
-F 2 "" H 10600 4600 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 10600 4600 50  0001 C CNN
 F 3 "~" H 10600 4600 50  0001 C CNN
 	1    10600 4600
 	1    0    0    -1  
@@ -1468,7 +1468,7 @@ AR Path="/5BBCF4FA" Ref="J?"  Part="1"
 AR Path="/5BA04E0C/5BBCF4FA" Ref="J65"  Part="1" 
 F 0 "J65" H 10679 4292 50  0000 L CNN
 F 1 "Test_V_A" H 10679 4201 50  0000 L CNN
-F 2 "" H 10600 4300 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 10600 4300 50  0001 C CNN
 F 3 "~" H 10600 4300 50  0001 C CNN
 	1    10600 4300
 	1    0    0    -1  
@@ -1502,7 +1502,7 @@ AR Path="/5BA0522C" Ref="Q?"  Part="1"
 AR Path="/5BA04E0C/5BA0522C" Ref="Q66"  Part="1" 
 F 0 "Q66" H 4606 2746 50  0000 L CNN
 F 1 "FKI10531" H 4606 2655 50  0000 L CNN
-F 2 "" H 4600 2800 50  0001 C CNN
+F 2 "Package_TO_SOT_THT:TO-220F-3_Vertical" H 4600 2800 50  0001 C CNN
 F 3 "~" H 4400 2700 50  0001 C CNN
 	1    4400 2700
 	-1   0    0    -1  
@@ -1537,7 +1537,7 @@ U 1 1 5BE0BA33
 P 8200 1500
 F 0 "R63" H 8259 1546 50  0000 L CNN
 F 1 "R_snub_A" H 8259 1455 50  0000 L CNN
-F 2 "" H 8200 1500 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical" H 8200 1500 50  0001 C CNN
 F 3 "~" H 8200 1500 50  0001 C CNN
 	1    8200 1500
 	1    0    0    -1  
@@ -1548,7 +1548,7 @@ U 1 1 5BE0BB9D
 P 8200 2000
 F 0 "C61" H 8292 2046 50  0000 L CNN
 F 1 "C_snub_A" H 8292 1955 50  0000 L CNN
-F 2 "" H 8200 2000 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 8200 2000 50  0001 C CNN
 F 3 "~" H 8200 2000 50  0001 C CNN
 	1    8200 2000
 	1    0    0    -1  
@@ -1571,7 +1571,7 @@ U 1 1 5BE61268
 P 10300 1500
 F 0 "R64" H 10359 1546 50  0000 L CNN
 F 1 "R_snub_B" H 10359 1455 50  0000 L CNN
-F 2 "" H 10300 1500 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical" H 10300 1500 50  0001 C CNN
 F 3 "~" H 10300 1500 50  0001 C CNN
 	1    10300 1500
 	-1   0    0    -1  
@@ -1582,7 +1582,7 @@ U 1 1 5BE6126E
 P 10300 2000
 F 0 "C62" H 10392 2046 50  0000 L CNN
 F 1 "C_snub_B" H 10392 1955 50  0000 L CNN
-F 2 "" H 10300 2000 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 10300 2000 50  0001 C CNN
 F 3 "~" H 10300 2000 50  0001 C CNN
 	1    10300 2000
 	-1   0    0    -1  
