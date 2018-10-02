@@ -955,52 +955,21 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5BC6E921
-P 5200 2500
+P 5300 2500
 AR Path="/5BC6E921" Ref="#PWR?"  Part="1" 
 AR Path="/5BA04E0C/5BC6E921" Ref="#PWR?"  Part="1" 
 AR Path="/5B9C2C23/5BC6E921" Ref="#PWR0108"  Part="1" 
-F 0 "#PWR0108" H 5200 2250 50  0001 C CNN
-F 1 "GND" H 5205 2327 50  0000 C CNN
-F 2 "" H 5200 2500 50  0001 C CNN
-F 3 "" H 5200 2500 50  0001 C CNN
-	1    5200 2500
+F 0 "#PWR0108" H 5300 2250 50  0001 C CNN
+F 1 "GND" H 5305 2327 50  0000 C CNN
+F 2 "" H 5300 2500 50  0001 C CNN
+F 3 "" H 5300 2500 50  0001 C CNN
+	1    5300 2500
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	5200 2500 5200 2300
-$Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 5BC6E928
-P 5700 1900
-AR Path="/5BC6E928" Ref="J?"  Part="1" 
-AR Path="/5BA04E0C/5BC6E928" Ref="J?"  Part="1" 
-AR Path="/5B9C2C23/5BC6E928" Ref="J45"  Part="1" 
-F 0 "J45" H 5779 1892 50  0000 L CNN
-F 1 "Test_V+" H 5779 1801 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 5700 1900 50  0001 C CNN
-F 3 "~" H 5700 1900 50  0001 C CNN
-	1    5700 1900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5500 2200 5400 2200
-Wire Wire Line
-	5400 2200 5400 2100
-Wire Wire Line
-	5400 2000 5500 2000
-Text Label 5200 2100 2    50   ~ 0
+	5300 2500 5300 2300
+Text Label 5300 2200 2    50   ~ 0
 V-
-Wire Wire Line
-	5200 2100 5400 2100
-Connection ~ 5400 2100
-Wire Wire Line
-	5400 2100 5400 2000
-Wire Wire Line
-	5200 2300 5500 2300
-Text Label 5200 1900 2    50   ~ 0
-V+
-Wire Wire Line
-	5200 1900 5500 1900
 Wire Wire Line
 	2200 2000 2200 2200
 Connection ~ 2200 2200
@@ -1020,4 +989,8 @@ F 3 "~" H 9500 1800 50  0001 C CNN
 	1    9500 1800
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5300 2300 5500 2300
+Wire Wire Line
+	5500 2200 5300 2200
 $EndSCHEMATC
