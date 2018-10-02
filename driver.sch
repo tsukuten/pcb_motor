@@ -17,685 +17,256 @@ $EndDescr
 $Comp
 L Device:Q_PMOS_GDS Q?
 U 1 1 5BA05193
-P 4400 1700
+P 4400 3300
 AR Path="/5BA05193" Ref="Q?"  Part="1" 
 AR Path="/5BA04E0C/5BA05193" Ref="Q64"  Part="1" 
-F 0 "Q64" H 4606 1654 50  0000 L CNN
-F 1 "IRFU5505" H 4606 1745 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-251-3_Vertical" H 4600 1800 50  0001 C CNN
-F 3 "~" H 4400 1700 50  0001 C CNN
-	1    4400 1700
+F 0 "Q64" H 4606 3254 50  0000 L CNN
+F 1 "IRFU5505" H 4606 3345 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-251-3_Vertical" H 4600 3400 50  0001 C CNN
+F 3 "~" H 4400 3300 50  0001 C CNN
+	1    4400 3300
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:Q_PMOS_GDS Q?
 U 1 1 5BA0519A
-P 3000 1700
+P 3000 3300
 AR Path="/5BA0519A" Ref="Q?"  Part="1" 
 AR Path="/5BA04E0C/5BA0519A" Ref="Q63"  Part="1" 
-F 0 "Q63" H 3205 1654 50  0000 L CNN
-F 1 "IRFU5505" H 3205 1745 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-251-3_Vertical" H 3200 1800 50  0001 C CNN
-F 3 "~" H 3000 1700 50  0001 C CNN
-	1    3000 1700
+F 0 "Q63" H 3205 3254 50  0000 L CNN
+F 1 "IRFU5505" H 3205 3345 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-251-3_Vertical" H 3200 3400 50  0001 C CNN
+F 3 "~" H 3000 3300 50  0001 C CNN
+	1    3000 3300
 	1    0    0    1   
 $EndComp
 $Comp
 L Device:R_Small R?
 U 1 1 5BA051A1
-P 2500 1700
+P 2500 3300
 AR Path="/5BA051A1" Ref="R?"  Part="1" 
 AR Path="/5BA04E0C/5BA051A1" Ref="R68"  Part="1" 
-F 0 "R68" V 2304 1700 50  0000 C CNN
-F 1 "10k" V 2395 1700 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 2500 1700 50  0001 C CNN
-F 3 "~" H 2500 1700 50  0001 C CNN
-	1    2500 1700
+F 0 "R68" V 2304 3300 50  0000 C CNN
+F 1 "10k" V 2395 3300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 2500 3300 50  0001 C CNN
+F 3 "~" H 2500 3300 50  0001 C CNN
+	1    2500 3300
 	0    1    1    0   
 $EndComp
 $Comp
 L Transistor_BJT:2SA1015 Q?
 U 1 1 5BA051A8
-P 2100 1300
+P 2100 2900
 AR Path="/5BA051A8" Ref="Q?"  Part="1" 
 AR Path="/5BA04E0C/5BA051A8" Ref="Q61"  Part="1" 
-F 0 "Q61" H 2291 1254 50  0000 L CNN
-F 1 "2SA1015" H 2291 1345 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 2300 1225 50  0001 L CIN
-F 3 "http://www.datasheetcatalog.org/datasheet/toshiba/905.pdf" H 2100 1300 50  0001 L CNN
-	1    2100 1300
+F 0 "Q61" H 2291 2854 50  0000 L CNN
+F 1 "2SA1015" H 2291 2945 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 2300 2825 50  0001 L CIN
+F 3 "http://www.datasheetcatalog.org/datasheet/toshiba/905.pdf" H 2100 2900 50  0001 L CNN
+	1    2100 2900
 	1    0    0    1   
 $EndComp
 $Comp
 L power:+5VD #PWR?
 U 1 1 5BA051AF
-P 2200 900
+P 2200 2500
 AR Path="/5BA051AF" Ref="#PWR?"  Part="1" 
 AR Path="/5BA04E0C/5BA051AF" Ref="#PWR061"  Part="1" 
-F 0 "#PWR061" H 2200 750 50  0001 C CNN
-F 1 "+5VD" H 2215 1073 50  0000 C CNN
-F 2 "" H 2200 900 50  0001 C CNN
-F 3 "" H 2200 900 50  0001 C CNN
-	1    2200 900 
+F 0 "#PWR061" H 2200 2350 50  0001 C CNN
+F 1 "+5VD" H 2215 2673 50  0000 C CNN
+F 2 "" H 2200 2500 50  0001 C CNN
+F 3 "" H 2200 2500 50  0001 C CNN
+	1    2200 2500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small R?
 U 1 1 5BA051B5
-P 1600 1300
+P 1600 2900
 AR Path="/5BA051B5" Ref="R?"  Part="1" 
 AR Path="/5BA04E0C/5BA051B5" Ref="R61"  Part="1" 
-F 0 "R61" V 1404 1300 50  0000 C CNN
-F 1 "1k" V 1495 1300 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 1600 1300 50  0001 C CNN
-F 3 "~" H 1600 1300 50  0001 C CNN
-	1    1600 1300
+F 0 "R61" V 1404 2900 50  0000 C CNN
+F 1 "1k" V 1495 2900 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 1600 2900 50  0001 C CNN
+F 3 "~" H 1600 2900 50  0001 C CNN
+	1    1600 2900
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_Small R?
 U 1 1 5BA051BC
-P 1300 1600
+P 1300 3200
 AR Path="/5BA051BC" Ref="R?"  Part="1" 
 AR Path="/5BA04E0C/5BA051BC" Ref="R65"  Part="1" 
-F 0 "R65" H 1359 1646 50  0000 L CNN
-F 1 "47k" H 1359 1555 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 1300 1600 50  0001 C CNN
-F 3 "~" H 1300 1600 50  0001 C CNN
-	1    1300 1600
+F 0 "R65" H 1359 3246 50  0000 L CNN
+F 1 "47k" H 1359 3155 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 1300 3200 50  0001 C CNN
+F 3 "~" H 1300 3200 50  0001 C CNN
+	1    1300 3200
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5BA051C3
-P 1300 1900
+P 1300 3500
 AR Path="/5BA051C3" Ref="#PWR?"  Part="1" 
 AR Path="/5BA04E0C/5BA051C3" Ref="#PWR063"  Part="1" 
-F 0 "#PWR063" H 1300 1650 50  0001 C CNN
-F 1 "GND" H 1305 1727 50  0000 C CNN
-F 2 "" H 1300 1900 50  0001 C CNN
-F 3 "" H 1300 1900 50  0001 C CNN
-	1    1300 1900
+F 0 "#PWR063" H 1300 3250 50  0001 C CNN
+F 1 "GND" H 1305 3327 50  0000 C CNN
+F 2 "" H 1300 3500 50  0001 C CNN
+F 3 "" H 1300 3500 50  0001 C CNN
+	1    1300 3500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1300 1500 1300 1300
+	1300 3100 1300 2900
 Wire Wire Line
-	1300 1300 1500 1300
+	1300 2900 1500 2900
 Wire Wire Line
-	1700 1300 1900 1300
+	1700 2900 1900 2900
 Wire Wire Line
-	2200 900  2200 1100
+	2200 2500 2200 2700
 Wire Wire Line
-	2200 1500 2200 1700
+	2200 3100 2200 3300
 $Comp
 L power:-12V #PWR?
 U 1 1 5BA051CE
-P 1600 1900
+P 1600 3500
 AR Path="/5BA051CE" Ref="#PWR?"  Part="1" 
 AR Path="/5BA04E0C/5BA051CE" Ref="#PWR064"  Part="1" 
-F 0 "#PWR064" H 1600 2000 50  0001 C CNN
-F 1 "-12V" H 1615 2073 50  0000 C CNN
-F 2 "" H 1600 1900 50  0001 C CNN
-F 3 "" H 1600 1900 50  0001 C CNN
-	1    1600 1900
+F 0 "#PWR064" H 1600 3600 50  0001 C CNN
+F 1 "-12V" H 1615 3673 50  0000 C CNN
+F 2 "" H 1600 3500 50  0001 C CNN
+F 3 "" H 1600 3500 50  0001 C CNN
+	1    1600 3500
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	2400 1700 2200 1700
+	2400 3300 2200 3300
 Wire Wire Line
-	2600 1700 2800 1700
+	2600 3300 2800 3300
 Wire Wire Line
-	1300 1700 1300 1900
+	1300 3300 1300 3500
 $Comp
 L Device:Q_NMOS_GDS Q?
 U 1 1 5BA051D7
-P 3000 2700
+P 3000 4300
 AR Path="/5BA051D7" Ref="Q?"  Part="1" 
 AR Path="/5BA04E0C/5BA051D7" Ref="Q65"  Part="1" 
-F 0 "Q65" H 3206 2746 50  0000 L CNN
-F 1 "FKI10531" H 3206 2655 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220F-3_Vertical" H 3200 2800 50  0001 C CNN
-F 3 "~" H 3000 2700 50  0001 C CNN
-	1    3000 2700
+F 0 "Q65" H 3206 4346 50  0000 L CNN
+F 1 "FKI10531" H 3206 4255 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220F-3_Vertical" H 3200 4400 50  0001 C CNN
+F 3 "~" H 3000 4300 50  0001 C CNN
+	1    3000 4300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small R?
 U 1 1 5BA051DE
-P 2500 2700
+P 2500 4300
 AR Path="/5BA051DE" Ref="R?"  Part="1" 
 AR Path="/5BA04E0C/5BA051DE" Ref="R72"  Part="1" 
-F 0 "R72" V 2304 2700 50  0000 C CNN
-F 1 "10k" V 2395 2700 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 2500 2700 50  0001 C CNN
-F 3 "~" H 2500 2700 50  0001 C CNN
-	1    2500 2700
+F 0 "R72" V 2304 4300 50  0000 C CNN
+F 1 "10k" V 2395 4300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 2500 4300 50  0001 C CNN
+F 3 "~" H 2500 4300 50  0001 C CNN
+	1    2500 4300
 	0    1    1    0   
 $EndComp
 $Comp
 L Transistor_BJT:2SC1815 Q?
 U 1 1 5BA051E5
-P 2100 3100
+P 2100 4700
 AR Path="/5BA051E5" Ref="Q?"  Part="1" 
 AR Path="/5BA04E0C/5BA051E5" Ref="Q67"  Part="1" 
-F 0 "Q67" H 2291 3146 50  0000 L CNN
-F 1 "2SC1815" H 2291 3055 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 2300 3025 50  0001 L CIN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf" H 2100 3100 50  0001 L CNN
-	1    2100 3100
+F 0 "Q67" H 2291 4746 50  0000 L CNN
+F 1 "2SC1815" H 2291 4655 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 2300 4625 50  0001 L CIN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf" H 2100 4700 50  0001 L CNN
+	1    2100 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5BA051EC
-P 2200 3500
+P 2200 5100
 AR Path="/5BA051EC" Ref="#PWR?"  Part="1" 
 AR Path="/5BA04E0C/5BA051EC" Ref="#PWR071"  Part="1" 
-F 0 "#PWR071" H 2200 3250 50  0001 C CNN
-F 1 "GND" H 2205 3327 50  0000 C CNN
-F 2 "" H 2200 3500 50  0001 C CNN
-F 3 "" H 2200 3500 50  0001 C CNN
-	1    2200 3500
+F 0 "#PWR071" H 2200 4850 50  0001 C CNN
+F 1 "GND" H 2205 4927 50  0000 C CNN
+F 2 "" H 2200 5100 50  0001 C CNN
+F 3 "" H 2200 5100 50  0001 C CNN
+	1    2200 5100
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+12V #PWR?
 U 1 1 5BA051F2
-P 1600 2500
+P 1600 4100
 AR Path="/5BA051F2" Ref="#PWR?"  Part="1" 
 AR Path="/5BA04E0C/5BA051F2" Ref="#PWR068"  Part="1" 
-F 0 "#PWR068" H 1600 2350 50  0001 C CNN
-F 1 "+12V" H 1615 2673 50  0000 C CNN
-F 2 "" H 1600 2500 50  0001 C CNN
-F 3 "" H 1600 2500 50  0001 C CNN
-	1    1600 2500
+F 0 "#PWR068" H 1600 3950 50  0001 C CNN
+F 1 "+12V" H 1615 4273 50  0000 C CNN
+F 2 "" H 1600 4100 50  0001 C CNN
+F 3 "" H 1600 4100 50  0001 C CNN
+	1    1600 4100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small R?
 U 1 1 5BA051F8
-P 1900 1700
+P 1900 3300
 AR Path="/5BA051F8" Ref="R?"  Part="1" 
 AR Path="/5BA04E0C/5BA051F8" Ref="R67"  Part="1" 
-F 0 "R67" V 1704 1700 50  0000 C CNN
-F 1 "10k" V 1795 1700 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 1900 1700 50  0001 C CNN
-F 3 "~" H 1900 1700 50  0001 C CNN
-	1    1900 1700
+F 0 "R67" V 1704 3300 50  0000 C CNN
+F 1 "10k" V 1795 3300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 1900 3300 50  0001 C CNN
+F 3 "~" H 1900 3300 50  0001 C CNN
+	1    1900 3300
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2000 1700 2200 1700
-Connection ~ 2200 1700
+	2000 3300 2200 3300
+Connection ~ 2200 3300
 Wire Wire Line
-	1800 1700 1600 1700
+	1800 3300 1600 3300
 Wire Wire Line
-	1600 1700 1600 1900
+	1600 3300 1600 3500
 $Comp
 L Device:R_Small R?
 U 1 1 5BA05203
-P 1900 2700
+P 1900 4300
 AR Path="/5BA05203" Ref="R?"  Part="1" 
 AR Path="/5BA04E0C/5BA05203" Ref="R71"  Part="1" 
-F 0 "R71" V 1704 2700 50  0000 C CNN
-F 1 "10k" V 1795 2700 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 1900 2700 50  0001 C CNN
-F 3 "~" H 1900 2700 50  0001 C CNN
-	1    1900 2700
+F 0 "R71" V 1704 4300 50  0000 C CNN
+F 1 "10k" V 1795 4300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 1900 4300 50  0001 C CNN
+F 3 "~" H 1900 4300 50  0001 C CNN
+	1    1900 4300
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1600 2500 1600 2700
+	1600 4100 1600 4300
 Wire Wire Line
-	1600 2700 1800 2700
+	1600 4300 1800 4300
 Wire Wire Line
-	2000 2700 2200 2700
+	2000 4300 2200 4300
 Wire Wire Line
-	2600 2700 2800 2700
+	2600 4300 2800 4300
 Wire Wire Line
-	2200 2900 2200 2700
-Connection ~ 2200 2700
+	2200 4500 2200 4300
+Connection ~ 2200 4300
 Wire Wire Line
-	2200 2700 2400 2700
+	2200 4300 2400 4300
 Wire Wire Line
-	2200 3300 2200 3500
+	2200 4900 2200 5100
 $Comp
 L Device:R_Small R?
 U 1 1 5BA05212
-P 1600 3100
+P 1600 4700
 AR Path="/5BA05212" Ref="R?"  Part="1" 
 AR Path="/5BA04E0C/5BA05212" Ref="R77"  Part="1" 
-F 0 "R77" V 1404 3100 50  0000 C CNN
-F 1 "1k" V 1495 3100 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 1600 3100 50  0001 C CNN
-F 3 "~" H 1600 3100 50  0001 C CNN
-	1    1600 3100
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 5BA05219
-P 1300 2800
-AR Path="/5BA05219" Ref="R?"  Part="1" 
-AR Path="/5BA04E0C/5BA05219" Ref="R75"  Part="1" 
-F 0 "R75" H 1359 2846 50  0000 L CNN
-F 1 "47k" H 1359 2755 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 1300 2800 50  0001 C CNN
-F 3 "~" H 1300 2800 50  0001 C CNN
-	1    1300 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5VD #PWR?
-U 1 1 5BA05220
-P 1300 2500
-AR Path="/5BA05220" Ref="#PWR?"  Part="1" 
-AR Path="/5BA04E0C/5BA05220" Ref="#PWR067"  Part="1" 
-F 0 "#PWR067" H 1300 2350 50  0001 C CNN
-F 1 "+5VD" H 1315 2673 50  0000 C CNN
-F 2 "" H 1300 2500 50  0001 C CNN
-F 3 "" H 1300 2500 50  0001 C CNN
-	1    1300 2500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1300 2500 1300 2700
-Wire Wire Line
-	1300 2900 1300 3100
-Wire Wire Line
-	1300 3100 1500 3100
-Wire Wire Line
-	1700 3100 1900 3100
-Text Label 3300 2200 0    50   ~ 0
-Motor_A
-Text Label 4100 2200 2    50   ~ 0
-Motor_~A~
-Wire Wire Line
-	3100 1900 3100 2200
-Wire Wire Line
-	3300 2200 3100 2200
-Connection ~ 3100 2200
-Wire Wire Line
-	3100 2200 3100 2500
-Text Label 3900 1100 0    50   ~ 0
-V+_A
-Text Label 3900 3300 0    50   ~ 0
-V-_A
-Text Label 1100 3100 2    50   ~ 0
-Gate_A_POS_N
-Text Label 1100 1300 2    50   ~ 0
-Gate_A_POS_P
-Wire Wire Line
-	1100 1300 1300 1300
-Connection ~ 1300 1300
-Wire Wire Line
-	1100 3100 1300 3100
-Connection ~ 1300 3100
-Wire Wire Line
-	3100 2900 3100 3100
-Wire Wire Line
-	4300 3100 4300 2900
-Wire Wire Line
-	3100 1500 3100 1300
-Wire Wire Line
-	4300 1300 4300 1500
-Wire Wire Line
-	4300 1900 4300 2200
-$Comp
-L Device:R_Small R?
-U 1 1 5BA05244
-P 4900 1700
-AR Path="/5BA05244" Ref="R?"  Part="1" 
-AR Path="/5BA04E0C/5BA05244" Ref="R69"  Part="1" 
-F 0 "R69" V 4704 1700 50  0000 C CNN
-F 1 "10k" V 4795 1700 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 4900 1700 50  0001 C CNN
-F 3 "~" H 4900 1700 50  0001 C CNN
-	1    4900 1700
-	0    -1   1    0   
-$EndComp
-$Comp
-L Transistor_BJT:2SA1015 Q?
-U 1 1 5BA0524B
-P 5300 1300
-AR Path="/5BA0524B" Ref="Q?"  Part="1" 
-AR Path="/5BA04E0C/5BA0524B" Ref="Q62"  Part="1" 
-F 0 "Q62" H 5491 1254 50  0000 L CNN
-F 1 "2SA1015" H 5491 1345 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 5500 1225 50  0001 L CIN
-F 3 "http://www.datasheetcatalog.org/datasheet/toshiba/905.pdf" H 5300 1300 50  0001 L CNN
-	1    5300 1300
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:+5VD #PWR?
-U 1 1 5BA05252
-P 5200 900
-AR Path="/5BA05252" Ref="#PWR?"  Part="1" 
-AR Path="/5BA04E0C/5BA05252" Ref="#PWR062"  Part="1" 
-F 0 "#PWR062" H 5200 750 50  0001 C CNN
-F 1 "+5VD" H 5215 1073 50  0000 C CNN
-F 2 "" H 5200 900 50  0001 C CNN
-F 3 "" H 5200 900 50  0001 C CNN
-	1    5200 900 
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 5BA05258
-P 5800 1300
-AR Path="/5BA05258" Ref="R?"  Part="1" 
-AR Path="/5BA04E0C/5BA05258" Ref="R62"  Part="1" 
-F 0 "R62" V 5604 1300 50  0000 C CNN
-F 1 "1k" V 5695 1300 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 5800 1300 50  0001 C CNN
-F 3 "~" H 5800 1300 50  0001 C CNN
-	1    5800 1300
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 5BA0525F
-P 6100 1600
-AR Path="/5BA0525F" Ref="R?"  Part="1" 
-AR Path="/5BA04E0C/5BA0525F" Ref="R66"  Part="1" 
-F 0 "R66" H 6159 1646 50  0000 L CNN
-F 1 "47k" H 6159 1555 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 6100 1600 50  0001 C CNN
-F 3 "~" H 6100 1600 50  0001 C CNN
-	1    6100 1600
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5BA05266
-P 6100 1900
-AR Path="/5BA05266" Ref="#PWR?"  Part="1" 
-AR Path="/5BA04E0C/5BA05266" Ref="#PWR066"  Part="1" 
-F 0 "#PWR066" H 6100 1650 50  0001 C CNN
-F 1 "GND" H 6105 1727 50  0000 C CNN
-F 2 "" H 6100 1900 50  0001 C CNN
-F 3 "" H 6100 1900 50  0001 C CNN
-	1    6100 1900
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	6100 1500 6100 1300
-Wire Wire Line
-	6100 1300 5900 1300
-Wire Wire Line
-	5700 1300 5500 1300
-Wire Wire Line
-	5200 900  5200 1100
-Wire Wire Line
-	5200 1500 5200 1700
-$Comp
-L power:-12V #PWR?
-U 1 1 5BA05271
-P 5800 1900
-AR Path="/5BA05271" Ref="#PWR?"  Part="1" 
-AR Path="/5BA04E0C/5BA05271" Ref="#PWR065"  Part="1" 
-F 0 "#PWR065" H 5800 2000 50  0001 C CNN
-F 1 "-12V" H 5815 2073 50  0000 C CNN
-F 2 "" H 5800 1900 50  0001 C CNN
-F 3 "" H 5800 1900 50  0001 C CNN
-	1    5800 1900
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	5000 1700 5200 1700
-Wire Wire Line
-	4800 1700 4600 1700
-Wire Wire Line
-	6100 1700 6100 1900
-$Comp
-L Device:R_Small R?
-U 1 1 5BA0527A
-P 4900 2700
-AR Path="/5BA0527A" Ref="R?"  Part="1" 
-AR Path="/5BA04E0C/5BA0527A" Ref="R73"  Part="1" 
-F 0 "R73" V 4704 2700 50  0000 C CNN
-F 1 "10k" V 4795 2700 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 4900 2700 50  0001 C CNN
-F 3 "~" H 4900 2700 50  0001 C CNN
-	1    4900 2700
-	0    -1   1    0   
-$EndComp
-$Comp
-L Transistor_BJT:2SC1815 Q?
-U 1 1 5BA05281
-P 5300 3100
-AR Path="/5BA05281" Ref="Q?"  Part="1" 
-AR Path="/5BA04E0C/5BA05281" Ref="Q68"  Part="1" 
-F 0 "Q68" H 5491 3146 50  0000 L CNN
-F 1 "2SC1815" H 5491 3055 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 5500 3025 50  0001 L CIN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf" H 5300 3100 50  0001 L CNN
-	1    5300 3100
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5BA05288
-P 5200 3500
-AR Path="/5BA05288" Ref="#PWR?"  Part="1" 
-AR Path="/5BA04E0C/5BA05288" Ref="#PWR072"  Part="1" 
-F 0 "#PWR072" H 5200 3250 50  0001 C CNN
-F 1 "GND" H 5205 3327 50  0000 C CNN
-F 2 "" H 5200 3500 50  0001 C CNN
-F 3 "" H 5200 3500 50  0001 C CNN
-	1    5200 3500
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR?
-U 1 1 5BA0528E
-P 5800 2500
-AR Path="/5BA0528E" Ref="#PWR?"  Part="1" 
-AR Path="/5BA04E0C/5BA0528E" Ref="#PWR069"  Part="1" 
-F 0 "#PWR069" H 5800 2350 50  0001 C CNN
-F 1 "+12V" H 5815 2673 50  0000 C CNN
-F 2 "" H 5800 2500 50  0001 C CNN
-F 3 "" H 5800 2500 50  0001 C CNN
-	1    5800 2500
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 5BA05294
-P 5500 1700
-AR Path="/5BA05294" Ref="R?"  Part="1" 
-AR Path="/5BA04E0C/5BA05294" Ref="R70"  Part="1" 
-F 0 "R70" V 5304 1700 50  0000 C CNN
-F 1 "10k" V 5395 1700 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 5500 1700 50  0001 C CNN
-F 3 "~" H 5500 1700 50  0001 C CNN
-	1    5500 1700
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	5400 1700 5200 1700
-Connection ~ 5200 1700
-Wire Wire Line
-	5600 1700 5800 1700
-Wire Wire Line
-	5800 1700 5800 1900
-$Comp
-L Device:R_Small R?
-U 1 1 5BA0529F
-P 5500 2700
-AR Path="/5BA0529F" Ref="R?"  Part="1" 
-AR Path="/5BA04E0C/5BA0529F" Ref="R74"  Part="1" 
-F 0 "R74" V 5304 2700 50  0000 C CNN
-F 1 "10k" V 5395 2700 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 5500 2700 50  0001 C CNN
-F 3 "~" H 5500 2700 50  0001 C CNN
-	1    5500 2700
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	5800 2500 5800 2700
-Wire Wire Line
-	5800 2700 5600 2700
-Wire Wire Line
-	5400 2700 5200 2700
-Wire Wire Line
-	4800 2700 4600 2700
-Wire Wire Line
-	5200 2900 5200 2700
-Connection ~ 5200 2700
-Wire Wire Line
-	5200 2700 5000 2700
-Wire Wire Line
-	5200 3300 5200 3500
-$Comp
-L Device:R_Small R?
-U 1 1 5BA052AE
-P 5800 3100
-AR Path="/5BA052AE" Ref="R?"  Part="1" 
-AR Path="/5BA04E0C/5BA052AE" Ref="R78"  Part="1" 
-F 0 "R78" V 5604 3100 50  0000 C CNN
-F 1 "1k" V 5695 3100 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 5800 3100 50  0001 C CNN
-F 3 "~" H 5800 3100 50  0001 C CNN
-	1    5800 3100
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 5BA052B5
-P 6100 2800
-AR Path="/5BA052B5" Ref="R?"  Part="1" 
-AR Path="/5BA04E0C/5BA052B5" Ref="R76"  Part="1" 
-F 0 "R76" H 6159 2846 50  0000 L CNN
-F 1 "47k" H 6159 2755 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 6100 2800 50  0001 C CNN
-F 3 "~" H 6100 2800 50  0001 C CNN
-	1    6100 2800
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:+5VD #PWR?
-U 1 1 5BA052BC
-P 6100 2500
-AR Path="/5BA052BC" Ref="#PWR?"  Part="1" 
-AR Path="/5BA04E0C/5BA052BC" Ref="#PWR070"  Part="1" 
-F 0 "#PWR070" H 6100 2350 50  0001 C CNN
-F 1 "+5VD" H 6115 2673 50  0000 C CNN
-F 2 "" H 6100 2500 50  0001 C CNN
-F 3 "" H 6100 2500 50  0001 C CNN
-	1    6100 2500
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	6100 2500 6100 2700
-Wire Wire Line
-	6100 2900 6100 3100
-Wire Wire Line
-	6100 3100 5900 3100
-Wire Wire Line
-	5700 3100 5500 3100
-Text Label 6300 3100 0    50   ~ 0
-Gate_A_NEG_N
-Text Label 6300 1300 0    50   ~ 0
-Gate_A_NEG_P
-Wire Wire Line
-	6300 1300 6100 1300
-Connection ~ 6100 1300
-Wire Wire Line
-	6300 3100 6100 3100
-Connection ~ 6100 3100
-Wire Wire Line
-	3100 1300 3700 1300
-Wire Wire Line
-	3100 3100 3700 3100
-Wire Wire Line
-	3900 1100 3700 1100
-Wire Wire Line
-	3700 1100 3700 1300
-Connection ~ 3700 1300
-Wire Wire Line
-	3700 1300 4300 1300
-Wire Wire Line
-	3700 3100 3700 3300
-Wire Wire Line
-	3700 3300 3900 3300
-Connection ~ 3700 3100
-Wire Wire Line
-	3700 3100 4300 3100
-$Comp
-L Device:Q_PMOS_GDS Q?
-U 1 1 5BA052D6
-P 4400 5100
-AR Path="/5BA052D6" Ref="Q?"  Part="1" 
-AR Path="/5BA04E0C/5BA052D6" Ref="Q72"  Part="1" 
-F 0 "Q72" H 4606 5054 50  0000 L CNN
-F 1 "IRFU5505" H 4606 5145 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-251-3_Vertical" H 4600 5200 50  0001 C CNN
-F 3 "~" H 4400 5100 50  0001 C CNN
-	1    4400 5100
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:Q_PMOS_GDS Q?
-U 1 1 5BA052DD
-P 3000 5100
-AR Path="/5BA052DD" Ref="Q?"  Part="1" 
-AR Path="/5BA04E0C/5BA052DD" Ref="Q71"  Part="1" 
-F 0 "Q71" H 3205 5054 50  0000 L CNN
-F 1 "IRFU5505" H 3205 5145 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-251-3_Vertical" H 3200 5200 50  0001 C CNN
-F 3 "~" H 3000 5100 50  0001 C CNN
-	1    3000 5100
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 5BA052E4
-P 2500 5100
-AR Path="/5BA052E4" Ref="R?"  Part="1" 
-AR Path="/5BA04E0C/5BA052E4" Ref="R84"  Part="1" 
-F 0 "R84" V 2304 5100 50  0000 C CNN
-F 1 "10k" V 2395 5100 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 2500 5100 50  0001 C CNN
-F 3 "~" H 2500 5100 50  0001 C CNN
-	1    2500 5100
-	0    1    1    0   
-$EndComp
-$Comp
-L Transistor_BJT:2SA1015 Q?
-U 1 1 5BA052EB
-P 2100 4700
-AR Path="/5BA052EB" Ref="Q?"  Part="1" 
-AR Path="/5BA04E0C/5BA052EB" Ref="Q69"  Part="1" 
-F 0 "Q69" H 2291 4654 50  0000 L CNN
-F 1 "2SA1015" H 2291 4745 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 2300 4625 50  0001 L CIN
-F 3 "http://www.datasheetcatalog.org/datasheet/toshiba/905.pdf" H 2100 4700 50  0001 L CNN
-	1    2100 4700
-	1    0    0    1   
-$EndComp
-$Comp
-L power:+5VD #PWR?
-U 1 1 5BA052F2
-P 2200 4300
-AR Path="/5BA052F2" Ref="#PWR?"  Part="1" 
-AR Path="/5BA04E0C/5BA052F2" Ref="#PWR073"  Part="1" 
-F 0 "#PWR073" H 2200 4150 50  0001 C CNN
-F 1 "+5VD" H 2215 4473 50  0000 C CNN
-F 2 "" H 2200 4300 50  0001 C CNN
-F 3 "" H 2200 4300 50  0001 C CNN
-	1    2200 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 5BA052F8
-P 1600 4700
-AR Path="/5BA052F8" Ref="R?"  Part="1" 
-AR Path="/5BA04E0C/5BA052F8" Ref="R79"  Part="1" 
-F 0 "R79" V 1404 4700 50  0000 C CNN
+F 0 "R77" V 1404 4700 50  0000 C CNN
 F 1 "1k" V 1495 4700 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 1600 4700 50  0001 C CNN
 F 3 "~" H 1600 4700 50  0001 C CNN
@@ -704,313 +275,287 @@ F 3 "~" H 1600 4700 50  0001 C CNN
 $EndComp
 $Comp
 L Device:R_Small R?
-U 1 1 5BA052FF
-P 1300 5000
-AR Path="/5BA052FF" Ref="R?"  Part="1" 
-AR Path="/5BA04E0C/5BA052FF" Ref="R81"  Part="1" 
-F 0 "R81" H 1359 5046 50  0000 L CNN
-F 1 "47k" H 1359 4955 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 1300 5000 50  0001 C CNN
-F 3 "~" H 1300 5000 50  0001 C CNN
-	1    1300 5000
+U 1 1 5BA05219
+P 1300 4400
+AR Path="/5BA05219" Ref="R?"  Part="1" 
+AR Path="/5BA04E0C/5BA05219" Ref="R75"  Part="1" 
+F 0 "R75" H 1359 4446 50  0000 L CNN
+F 1 "47k" H 1359 4355 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 1300 4400 50  0001 C CNN
+F 3 "~" H 1300 4400 50  0001 C CNN
+	1    1300 4400
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
-U 1 1 5BA05306
-P 1300 5300
-AR Path="/5BA05306" Ref="#PWR?"  Part="1" 
-AR Path="/5BA04E0C/5BA05306" Ref="#PWR076"  Part="1" 
-F 0 "#PWR076" H 1300 5050 50  0001 C CNN
-F 1 "GND" H 1305 5127 50  0000 C CNN
-F 2 "" H 1300 5300 50  0001 C CNN
-F 3 "" H 1300 5300 50  0001 C CNN
-	1    1300 5300
+L power:+5VD #PWR?
+U 1 1 5BA05220
+P 1300 4100
+AR Path="/5BA05220" Ref="#PWR?"  Part="1" 
+AR Path="/5BA04E0C/5BA05220" Ref="#PWR067"  Part="1" 
+F 0 "#PWR067" H 1300 3950 50  0001 C CNN
+F 1 "+5VD" H 1315 4273 50  0000 C CNN
+F 2 "" H 1300 4100 50  0001 C CNN
+F 3 "" H 1300 4100 50  0001 C CNN
+	1    1300 4100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1300 4900 1300 4700
+	1300 4100 1300 4300
+Wire Wire Line
+	1300 4500 1300 4700
 Wire Wire Line
 	1300 4700 1500 4700
 Wire Wire Line
 	1700 4700 1900 4700
+Text Label 3300 3800 0    50   ~ 0
+Motor_A
+Text Label 4100 3800 2    50   ~ 0
+Motor_~A~
 Wire Wire Line
-	2200 4300 2200 4500
+	3100 3500 3100 3800
 Wire Wire Line
-	2200 4900 2200 5100
-$Comp
-L power:-12V #PWR?
-U 1 1 5BA05311
-P 1600 5300
-AR Path="/5BA05311" Ref="#PWR?"  Part="1" 
-AR Path="/5BA04E0C/5BA05311" Ref="#PWR077"  Part="1" 
-F 0 "#PWR077" H 1600 5400 50  0001 C CNN
-F 1 "-12V" H 1615 5473 50  0000 C CNN
-F 2 "" H 1600 5300 50  0001 C CNN
-F 3 "" H 1600 5300 50  0001 C CNN
-	1    1600 5300
-	-1   0    0    1   
-$EndComp
+	3300 3800 3100 3800
+Connection ~ 3100 3800
 Wire Wire Line
-	2400 5100 2200 5100
-Wire Wire Line
-	2600 5100 2800 5100
-Wire Wire Line
-	1300 5100 1300 5300
-$Comp
-L Device:Q_NMOS_GDS Q?
-U 1 1 5BA0531A
-P 3000 6100
-AR Path="/5BA0531A" Ref="Q?"  Part="1" 
-AR Path="/5BA04E0C/5BA0531A" Ref="Q73"  Part="1" 
-F 0 "Q73" H 3206 6146 50  0000 L CNN
-F 1 "FKI10531" H 3206 6055 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220F-3_Vertical" H 3200 6200 50  0001 C CNN
-F 3 "~" H 3000 6100 50  0001 C CNN
-	1    3000 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 5BA05321
-P 2500 6100
-AR Path="/5BA05321" Ref="R?"  Part="1" 
-AR Path="/5BA04E0C/5BA05321" Ref="R88"  Part="1" 
-F 0 "R88" V 2304 6100 50  0000 C CNN
-F 1 "10k" V 2395 6100 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 2500 6100 50  0001 C CNN
-F 3 "~" H 2500 6100 50  0001 C CNN
-	1    2500 6100
-	0    1    1    0   
-$EndComp
-$Comp
-L Transistor_BJT:2SC1815 Q?
-U 1 1 5BA05328
-P 2100 6500
-AR Path="/5BA05328" Ref="Q?"  Part="1" 
-AR Path="/5BA04E0C/5BA05328" Ref="Q75"  Part="1" 
-F 0 "Q75" H 2291 6546 50  0000 L CNN
-F 1 "2SC1815" H 2291 6455 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 2300 6425 50  0001 L CIN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf" H 2100 6500 50  0001 L CNN
-	1    2100 6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5BA0532F
-P 2200 6900
-AR Path="/5BA0532F" Ref="#PWR?"  Part="1" 
-AR Path="/5BA04E0C/5BA0532F" Ref="#PWR084"  Part="1" 
-F 0 "#PWR084" H 2200 6650 50  0001 C CNN
-F 1 "GND" H 2205 6727 50  0000 C CNN
-F 2 "" H 2200 6900 50  0001 C CNN
-F 3 "" H 2200 6900 50  0001 C CNN
-	1    2200 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR?
-U 1 1 5BA05335
-P 1600 5900
-AR Path="/5BA05335" Ref="#PWR?"  Part="1" 
-AR Path="/5BA04E0C/5BA05335" Ref="#PWR081"  Part="1" 
-F 0 "#PWR081" H 1600 5750 50  0001 C CNN
-F 1 "+12V" H 1615 6073 50  0000 C CNN
-F 2 "" H 1600 5900 50  0001 C CNN
-F 3 "" H 1600 5900 50  0001 C CNN
-	1    1600 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 5BA0533B
-P 1900 5100
-AR Path="/5BA0533B" Ref="R?"  Part="1" 
-AR Path="/5BA04E0C/5BA0533B" Ref="R83"  Part="1" 
-F 0 "R83" V 1704 5100 50  0000 C CNN
-F 1 "10k" V 1795 5100 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 1900 5100 50  0001 C CNN
-F 3 "~" H 1900 5100 50  0001 C CNN
-	1    1900 5100
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2000 5100 2200 5100
-Connection ~ 2200 5100
-Wire Wire Line
-	1800 5100 1600 5100
-Wire Wire Line
-	1600 5100 1600 5300
-$Comp
-L Device:R_Small R?
-U 1 1 5BA05346
-P 1900 6100
-AR Path="/5BA05346" Ref="R?"  Part="1" 
-AR Path="/5BA04E0C/5BA05346" Ref="R87"  Part="1" 
-F 0 "R87" V 1704 6100 50  0000 C CNN
-F 1 "10k" V 1795 6100 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 1900 6100 50  0001 C CNN
-F 3 "~" H 1900 6100 50  0001 C CNN
-	1    1900 6100
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1600 5900 1600 6100
-Wire Wire Line
-	1600 6100 1800 6100
-Wire Wire Line
-	2000 6100 2200 6100
-Wire Wire Line
-	2600 6100 2800 6100
-Wire Wire Line
-	2200 6300 2200 6100
-Connection ~ 2200 6100
-Wire Wire Line
-	2200 6100 2400 6100
-Wire Wire Line
-	2200 6700 2200 6900
-$Comp
-L Device:R_Small R?
-U 1 1 5BA05355
-P 1600 6500
-AR Path="/5BA05355" Ref="R?"  Part="1" 
-AR Path="/5BA04E0C/5BA05355" Ref="R93"  Part="1" 
-F 0 "R93" V 1404 6500 50  0000 C CNN
-F 1 "1k" V 1495 6500 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 1600 6500 50  0001 C CNN
-F 3 "~" H 1600 6500 50  0001 C CNN
-	1    1600 6500
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 5BA0535C
-P 1300 6200
-AR Path="/5BA0535C" Ref="R?"  Part="1" 
-AR Path="/5BA04E0C/5BA0535C" Ref="R91"  Part="1" 
-F 0 "R91" H 1359 6246 50  0000 L CNN
-F 1 "47k" H 1359 6155 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 1300 6200 50  0001 C CNN
-F 3 "~" H 1300 6200 50  0001 C CNN
-	1    1300 6200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5VD #PWR?
-U 1 1 5BA05363
-P 1300 5900
-AR Path="/5BA05363" Ref="#PWR?"  Part="1" 
-AR Path="/5BA04E0C/5BA05363" Ref="#PWR080"  Part="1" 
-F 0 "#PWR080" H 1300 5750 50  0001 C CNN
-F 1 "+5VD" H 1315 6073 50  0000 C CNN
-F 2 "" H 1300 5900 50  0001 C CNN
-F 3 "" H 1300 5900 50  0001 C CNN
-	1    1300 5900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1300 5900 1300 6100
-Wire Wire Line
-	1300 6300 1300 6500
-Wire Wire Line
-	1300 6500 1500 6500
-Wire Wire Line
-	1700 6500 1900 6500
-Text Label 3300 5600 0    50   ~ 0
-Motor_B
-Text Label 4100 5600 2    50   ~ 0
-Motor_~B~
-$Comp
-L Device:Q_NMOS_GDS Q?
-U 1 1 5BA0536F
-P 4400 6100
-AR Path="/5BA0536F" Ref="Q?"  Part="1" 
-AR Path="/5BA04E0C/5BA0536F" Ref="Q74"  Part="1" 
-F 0 "Q74" H 4606 6146 50  0000 L CNN
-F 1 "FKI10531" H 4606 6055 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220F-3_Vertical" H 4600 6200 50  0001 C CNN
-F 3 "~" H 4400 6100 50  0001 C CNN
-	1    4400 6100
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	3100 5300 3100 5600
-Wire Wire Line
-	3300 5600 3100 5600
-Connection ~ 3100 5600
-Wire Wire Line
-	3100 5600 3100 5900
-Text Label 3900 4500 0    50   ~ 0
-V+_B
-Text Label 3900 6700 0    50   ~ 0
-V-_B
-Text Label 1100 6500 2    50   ~ 0
-Gate_B_POS_N
+	3100 3800 3100 4100
+Text Label 3900 2700 0    50   ~ 0
+V+
+Text Label 3900 4900 0    50   ~ 0
+V-
 Text Label 1100 4700 2    50   ~ 0
-Gate_B_POS_P
+Gate_POS_N
+Text Label 1100 2900 2    50   ~ 0
+Gate_POS_P
+Wire Wire Line
+	1100 2900 1300 2900
+Connection ~ 1300 2900
 Wire Wire Line
 	1100 4700 1300 4700
 Connection ~ 1300 4700
 Wire Wire Line
-	1100 6500 1300 6500
-Connection ~ 1300 6500
+	3100 4500 3100 4700
 Wire Wire Line
-	3100 6300 3100 6500
+	4300 4700 4300 4500
 Wire Wire Line
-	4300 6500 4300 6300
+	3100 3100 3100 2900
 Wire Wire Line
-	3100 4900 3100 4700
+	4300 2900 4300 3100
 Wire Wire Line
-	4300 4700 4300 4900
-Wire Wire Line
-	4300 5300 4300 5600
+	4300 3500 4300 3800
 $Comp
 L Device:R_Small R?
-U 1 1 5BA05387
-P 4900 5100
-AR Path="/5BA05387" Ref="R?"  Part="1" 
-AR Path="/5BA04E0C/5BA05387" Ref="R85"  Part="1" 
-F 0 "R85" V 4704 5100 50  0000 C CNN
-F 1 "10k" V 4795 5100 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 4900 5100 50  0001 C CNN
-F 3 "~" H 4900 5100 50  0001 C CNN
-	1    4900 5100
+U 1 1 5BA05244
+P 4900 3300
+AR Path="/5BA05244" Ref="R?"  Part="1" 
+AR Path="/5BA04E0C/5BA05244" Ref="R69"  Part="1" 
+F 0 "R69" V 4704 3300 50  0000 C CNN
+F 1 "10k" V 4795 3300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 4900 3300 50  0001 C CNN
+F 3 "~" H 4900 3300 50  0001 C CNN
+	1    4900 3300
 	0    -1   1    0   
 $EndComp
 $Comp
 L Transistor_BJT:2SA1015 Q?
-U 1 1 5BA0538E
-P 5300 4700
-AR Path="/5BA0538E" Ref="Q?"  Part="1" 
-AR Path="/5BA04E0C/5BA0538E" Ref="Q70"  Part="1" 
-F 0 "Q70" H 5491 4654 50  0000 L CNN
-F 1 "2SA1015" H 5491 4745 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 5500 4625 50  0001 L CIN
-F 3 "http://www.datasheetcatalog.org/datasheet/toshiba/905.pdf" H 5300 4700 50  0001 L CNN
-	1    5300 4700
+U 1 1 5BA0524B
+P 5300 2900
+AR Path="/5BA0524B" Ref="Q?"  Part="1" 
+AR Path="/5BA04E0C/5BA0524B" Ref="Q62"  Part="1" 
+F 0 "Q62" H 5491 2854 50  0000 L CNN
+F 1 "2SA1015" H 5491 2945 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 5500 2825 50  0001 L CIN
+F 3 "http://www.datasheetcatalog.org/datasheet/toshiba/905.pdf" H 5300 2900 50  0001 L CNN
+	1    5300 2900
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:+5VD #PWR?
-U 1 1 5BA05395
-P 5200 4300
-AR Path="/5BA05395" Ref="#PWR?"  Part="1" 
-AR Path="/5BA04E0C/5BA05395" Ref="#PWR074"  Part="1" 
-F 0 "#PWR074" H 5200 4150 50  0001 C CNN
-F 1 "+5VD" H 5215 4473 50  0000 C CNN
-F 2 "" H 5200 4300 50  0001 C CNN
-F 3 "" H 5200 4300 50  0001 C CNN
-	1    5200 4300
+U 1 1 5BA05252
+P 5200 2500
+AR Path="/5BA05252" Ref="#PWR?"  Part="1" 
+AR Path="/5BA04E0C/5BA05252" Ref="#PWR062"  Part="1" 
+F 0 "#PWR062" H 5200 2350 50  0001 C CNN
+F 1 "+5VD" H 5215 2673 50  0000 C CNN
+F 2 "" H 5200 2500 50  0001 C CNN
+F 3 "" H 5200 2500 50  0001 C CNN
+	1    5200 2500
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small R?
-U 1 1 5BA0539B
+U 1 1 5BA05258
+P 5800 2900
+AR Path="/5BA05258" Ref="R?"  Part="1" 
+AR Path="/5BA04E0C/5BA05258" Ref="R62"  Part="1" 
+F 0 "R62" V 5604 2900 50  0000 C CNN
+F 1 "1k" V 5695 2900 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 5800 2900 50  0001 C CNN
+F 3 "~" H 5800 2900 50  0001 C CNN
+	1    5800 2900
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5BA0525F
+P 6100 3200
+AR Path="/5BA0525F" Ref="R?"  Part="1" 
+AR Path="/5BA04E0C/5BA0525F" Ref="R66"  Part="1" 
+F 0 "R66" H 6159 3246 50  0000 L CNN
+F 1 "47k" H 6159 3155 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 6100 3200 50  0001 C CNN
+F 3 "~" H 6100 3200 50  0001 C CNN
+	1    6100 3200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BA05266
+P 6100 3500
+AR Path="/5BA05266" Ref="#PWR?"  Part="1" 
+AR Path="/5BA04E0C/5BA05266" Ref="#PWR066"  Part="1" 
+F 0 "#PWR066" H 6100 3250 50  0001 C CNN
+F 1 "GND" H 6105 3327 50  0000 C CNN
+F 2 "" H 6100 3500 50  0001 C CNN
+F 3 "" H 6100 3500 50  0001 C CNN
+	1    6100 3500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 3100 6100 2900
+Wire Wire Line
+	6100 2900 5900 2900
+Wire Wire Line
+	5700 2900 5500 2900
+Wire Wire Line
+	5200 2500 5200 2700
+Wire Wire Line
+	5200 3100 5200 3300
+$Comp
+L power:-12V #PWR?
+U 1 1 5BA05271
+P 5800 3500
+AR Path="/5BA05271" Ref="#PWR?"  Part="1" 
+AR Path="/5BA04E0C/5BA05271" Ref="#PWR065"  Part="1" 
+F 0 "#PWR065" H 5800 3600 50  0001 C CNN
+F 1 "-12V" H 5815 3673 50  0000 C CNN
+F 2 "" H 5800 3500 50  0001 C CNN
+F 3 "" H 5800 3500 50  0001 C CNN
+	1    5800 3500
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	5000 3300 5200 3300
+Wire Wire Line
+	4800 3300 4600 3300
+Wire Wire Line
+	6100 3300 6100 3500
+$Comp
+L Device:R_Small R?
+U 1 1 5BA0527A
+P 4900 4300
+AR Path="/5BA0527A" Ref="R?"  Part="1" 
+AR Path="/5BA04E0C/5BA0527A" Ref="R73"  Part="1" 
+F 0 "R73" V 4704 4300 50  0000 C CNN
+F 1 "10k" V 4795 4300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 4900 4300 50  0001 C CNN
+F 3 "~" H 4900 4300 50  0001 C CNN
+	1    4900 4300
+	0    -1   1    0   
+$EndComp
+$Comp
+L Transistor_BJT:2SC1815 Q?
+U 1 1 5BA05281
+P 5300 4700
+AR Path="/5BA05281" Ref="Q?"  Part="1" 
+AR Path="/5BA04E0C/5BA05281" Ref="Q68"  Part="1" 
+F 0 "Q68" H 5491 4746 50  0000 L CNN
+F 1 "2SC1815" H 5491 4655 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 5500 4625 50  0001 L CIN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf" H 5300 4700 50  0001 L CNN
+	1    5300 4700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BA05288
+P 5200 5100
+AR Path="/5BA05288" Ref="#PWR?"  Part="1" 
+AR Path="/5BA04E0C/5BA05288" Ref="#PWR072"  Part="1" 
+F 0 "#PWR072" H 5200 4850 50  0001 C CNN
+F 1 "GND" H 5205 4927 50  0000 C CNN
+F 2 "" H 5200 5100 50  0001 C CNN
+F 3 "" H 5200 5100 50  0001 C CNN
+	1    5200 5100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5BA0528E
+P 5800 4100
+AR Path="/5BA0528E" Ref="#PWR?"  Part="1" 
+AR Path="/5BA04E0C/5BA0528E" Ref="#PWR069"  Part="1" 
+F 0 "#PWR069" H 5800 3950 50  0001 C CNN
+F 1 "+12V" H 5815 4273 50  0000 C CNN
+F 2 "" H 5800 4100 50  0001 C CNN
+F 3 "" H 5800 4100 50  0001 C CNN
+	1    5800 4100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5BA05294
+P 5500 3300
+AR Path="/5BA05294" Ref="R?"  Part="1" 
+AR Path="/5BA04E0C/5BA05294" Ref="R70"  Part="1" 
+F 0 "R70" V 5304 3300 50  0000 C CNN
+F 1 "10k" V 5395 3300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 5500 3300 50  0001 C CNN
+F 3 "~" H 5500 3300 50  0001 C CNN
+	1    5500 3300
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	5400 3300 5200 3300
+Connection ~ 5200 3300
+Wire Wire Line
+	5600 3300 5800 3300
+Wire Wire Line
+	5800 3300 5800 3500
+$Comp
+L Device:R_Small R?
+U 1 1 5BA0529F
+P 5500 4300
+AR Path="/5BA0529F" Ref="R?"  Part="1" 
+AR Path="/5BA04E0C/5BA0529F" Ref="R74"  Part="1" 
+F 0 "R74" V 5304 4300 50  0000 C CNN
+F 1 "10k" V 5395 4300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 5500 4300 50  0001 C CNN
+F 3 "~" H 5500 4300 50  0001 C CNN
+	1    5500 4300
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	5800 4100 5800 4300
+Wire Wire Line
+	5800 4300 5600 4300
+Wire Wire Line
+	5400 4300 5200 4300
+Wire Wire Line
+	4800 4300 4600 4300
+Wire Wire Line
+	5200 4500 5200 4300
+Connection ~ 5200 4300
+Wire Wire Line
+	5200 4300 5000 4300
+Wire Wire Line
+	5200 4900 5200 5100
+$Comp
+L Device:R_Small R?
+U 1 1 5BA052AE
 P 5800 4700
-AR Path="/5BA0539B" Ref="R?"  Part="1" 
-AR Path="/5BA04E0C/5BA0539B" Ref="R80"  Part="1" 
-F 0 "R80" V 5604 4700 50  0000 C CNN
+AR Path="/5BA052AE" Ref="R?"  Part="1" 
+AR Path="/5BA04E0C/5BA052AE" Ref="R78"  Part="1" 
+F 0 "R78" V 5604 4700 50  0000 C CNN
 F 1 "1k" V 5695 4700 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 5800 4700 50  0001 C CNN
 F 3 "~" H 5800 4700 50  0001 C CNN
@@ -1019,244 +564,71 @@ F 3 "~" H 5800 4700 50  0001 C CNN
 $EndComp
 $Comp
 L Device:R_Small R?
-U 1 1 5BA053A2
-P 6100 5000
-AR Path="/5BA053A2" Ref="R?"  Part="1" 
-AR Path="/5BA04E0C/5BA053A2" Ref="R82"  Part="1" 
-F 0 "R82" H 6159 5046 50  0000 L CNN
-F 1 "47k" H 6159 4955 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 6100 5000 50  0001 C CNN
-F 3 "~" H 6100 5000 50  0001 C CNN
-	1    6100 5000
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5BA053A9
-P 6100 5300
-AR Path="/5BA053A9" Ref="#PWR?"  Part="1" 
-AR Path="/5BA04E0C/5BA053A9" Ref="#PWR079"  Part="1" 
-F 0 "#PWR079" H 6100 5050 50  0001 C CNN
-F 1 "GND" H 6105 5127 50  0000 C CNN
-F 2 "" H 6100 5300 50  0001 C CNN
-F 3 "" H 6100 5300 50  0001 C CNN
-	1    6100 5300
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	6100 4900 6100 4700
-Wire Wire Line
-	6100 4700 5900 4700
-Wire Wire Line
-	5700 4700 5500 4700
-Wire Wire Line
-	5200 4300 5200 4500
-Wire Wire Line
-	5200 4900 5200 5100
-$Comp
-L power:-12V #PWR?
-U 1 1 5BA053B4
-P 5800 5300
-AR Path="/5BA053B4" Ref="#PWR?"  Part="1" 
-AR Path="/5BA04E0C/5BA053B4" Ref="#PWR078"  Part="1" 
-F 0 "#PWR078" H 5800 5400 50  0001 C CNN
-F 1 "-12V" H 5815 5473 50  0000 C CNN
-F 2 "" H 5800 5300 50  0001 C CNN
-F 3 "" H 5800 5300 50  0001 C CNN
-	1    5800 5300
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	5000 5100 5200 5100
-Wire Wire Line
-	4800 5100 4600 5100
-Wire Wire Line
-	6100 5100 6100 5300
-$Comp
-L Device:R_Small R?
-U 1 1 5BA053BD
-P 4900 6100
-AR Path="/5BA053BD" Ref="R?"  Part="1" 
-AR Path="/5BA04E0C/5BA053BD" Ref="R89"  Part="1" 
-F 0 "R89" V 4704 6100 50  0000 C CNN
-F 1 "10k" V 4795 6100 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 4900 6100 50  0001 C CNN
-F 3 "~" H 4900 6100 50  0001 C CNN
-	1    4900 6100
-	0    -1   1    0   
-$EndComp
-$Comp
-L Transistor_BJT:2SC1815 Q?
-U 1 1 5BA053C4
-P 5300 6500
-AR Path="/5BA053C4" Ref="Q?"  Part="1" 
-AR Path="/5BA04E0C/5BA053C4" Ref="Q76"  Part="1" 
-F 0 "Q76" H 5491 6546 50  0000 L CNN
-F 1 "2SC1815" H 5491 6455 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 5500 6425 50  0001 L CIN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf" H 5300 6500 50  0001 L CNN
-	1    5300 6500
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5BA053CB
-P 5200 6900
-AR Path="/5BA053CB" Ref="#PWR?"  Part="1" 
-AR Path="/5BA04E0C/5BA053CB" Ref="#PWR085"  Part="1" 
-F 0 "#PWR085" H 5200 6650 50  0001 C CNN
-F 1 "GND" H 5205 6727 50  0000 C CNN
-F 2 "" H 5200 6900 50  0001 C CNN
-F 3 "" H 5200 6900 50  0001 C CNN
-	1    5200 6900
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR?
-U 1 1 5BA053D1
-P 5800 5900
-AR Path="/5BA053D1" Ref="#PWR?"  Part="1" 
-AR Path="/5BA04E0C/5BA053D1" Ref="#PWR082"  Part="1" 
-F 0 "#PWR082" H 5800 5750 50  0001 C CNN
-F 1 "+12V" H 5815 6073 50  0000 C CNN
-F 2 "" H 5800 5900 50  0001 C CNN
-F 3 "" H 5800 5900 50  0001 C CNN
-	1    5800 5900
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 5BA053D7
-P 5500 5100
-AR Path="/5BA053D7" Ref="R?"  Part="1" 
-AR Path="/5BA04E0C/5BA053D7" Ref="R86"  Part="1" 
-F 0 "R86" V 5304 5100 50  0000 C CNN
-F 1 "10k" V 5395 5100 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 5500 5100 50  0001 C CNN
-F 3 "~" H 5500 5100 50  0001 C CNN
-	1    5500 5100
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	5400 5100 5200 5100
-Connection ~ 5200 5100
-Wire Wire Line
-	5600 5100 5800 5100
-Wire Wire Line
-	5800 5100 5800 5300
-$Comp
-L Device:R_Small R?
-U 1 1 5BA053E2
-P 5500 6100
-AR Path="/5BA053E2" Ref="R?"  Part="1" 
-AR Path="/5BA04E0C/5BA053E2" Ref="R90"  Part="1" 
-F 0 "R90" V 5304 6100 50  0000 C CNN
-F 1 "10k" V 5395 6100 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 5500 6100 50  0001 C CNN
-F 3 "~" H 5500 6100 50  0001 C CNN
-	1    5500 6100
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	5800 5900 5800 6100
-Wire Wire Line
-	5800 6100 5600 6100
-Wire Wire Line
-	5400 6100 5200 6100
-Wire Wire Line
-	4800 6100 4600 6100
-Wire Wire Line
-	5200 6300 5200 6100
-Connection ~ 5200 6100
-Wire Wire Line
-	5200 6100 5000 6100
-Wire Wire Line
-	5200 6700 5200 6900
-$Comp
-L Device:R_Small R?
-U 1 1 5BA053F1
-P 5800 6500
-AR Path="/5BA053F1" Ref="R?"  Part="1" 
-AR Path="/5BA04E0C/5BA053F1" Ref="R94"  Part="1" 
-F 0 "R94" V 5604 6500 50  0000 C CNN
-F 1 "1k" V 5695 6500 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 5800 6500 50  0001 C CNN
-F 3 "~" H 5800 6500 50  0001 C CNN
-	1    5800 6500
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 5BA053F8
-P 6100 6200
-AR Path="/5BA053F8" Ref="R?"  Part="1" 
-AR Path="/5BA04E0C/5BA053F8" Ref="R92"  Part="1" 
-F 0 "R92" H 6159 6246 50  0000 L CNN
-F 1 "47k" H 6159 6155 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 6100 6200 50  0001 C CNN
-F 3 "~" H 6100 6200 50  0001 C CNN
-	1    6100 6200
+U 1 1 5BA052B5
+P 6100 4400
+AR Path="/5BA052B5" Ref="R?"  Part="1" 
+AR Path="/5BA04E0C/5BA052B5" Ref="R76"  Part="1" 
+F 0 "R76" H 6159 4446 50  0000 L CNN
+F 1 "47k" H 6159 4355 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 6100 4400 50  0001 C CNN
+F 3 "~" H 6100 4400 50  0001 C CNN
+	1    6100 4400
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:+5VD #PWR?
-U 1 1 5BA053FF
-P 6100 5900
-AR Path="/5BA053FF" Ref="#PWR?"  Part="1" 
-AR Path="/5BA04E0C/5BA053FF" Ref="#PWR083"  Part="1" 
-F 0 "#PWR083" H 6100 5750 50  0001 C CNN
-F 1 "+5VD" H 6115 6073 50  0000 C CNN
-F 2 "" H 6100 5900 50  0001 C CNN
-F 3 "" H 6100 5900 50  0001 C CNN
-	1    6100 5900
+U 1 1 5BA052BC
+P 6100 4100
+AR Path="/5BA052BC" Ref="#PWR?"  Part="1" 
+AR Path="/5BA04E0C/5BA052BC" Ref="#PWR070"  Part="1" 
+F 0 "#PWR070" H 6100 3950 50  0001 C CNN
+F 1 "+5VD" H 6115 4273 50  0000 C CNN
+F 2 "" H 6100 4100 50  0001 C CNN
+F 3 "" H 6100 4100 50  0001 C CNN
+	1    6100 4100
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	6100 5900 6100 6100
+	6100 4100 6100 4300
 Wire Wire Line
-	6100 6300 6100 6500
+	6100 4500 6100 4700
 Wire Wire Line
-	6100 6500 5900 6500
+	6100 4700 5900 4700
 Wire Wire Line
-	5700 6500 5500 6500
-Text Label 6300 6500 0    50   ~ 0
-Gate_B_NEG_N
+	5700 4700 5500 4700
 Text Label 6300 4700 0    50   ~ 0
-Gate_B_NEG_P
+Gate_NEG_N
+Text Label 6300 2900 0    50   ~ 0
+Gate_NEG_P
+Wire Wire Line
+	6300 2900 6100 2900
+Connection ~ 6100 2900
 Wire Wire Line
 	6300 4700 6100 4700
 Connection ~ 6100 4700
 Wire Wire Line
-	6300 6500 6100 6500
-Connection ~ 6100 6500
+	3100 2900 3700 2900
 Wire Wire Line
 	3100 4700 3700 4700
 Wire Wire Line
-	3100 6500 3700 6500
+	3900 2700 3700 2700
 Wire Wire Line
-	3900 4500 3700 4500
+	3700 2700 3700 2900
+Connection ~ 3700 2900
 Wire Wire Line
-	3700 4500 3700 4700
+	3700 2900 4300 2900
+Wire Wire Line
+	3700 4700 3700 4900
+Wire Wire Line
+	3700 4900 3900 4900
 Connection ~ 3700 4700
 Wire Wire Line
 	3700 4700 4300 4700
 Wire Wire Line
-	3700 6500 3700 6700
+	4100 3800 4300 3800
+Connection ~ 4300 3800
 Wire Wire Line
-	3700 6700 3900 6700
-Connection ~ 3700 6500
-Wire Wire Line
-	3700 6500 4300 6500
-Wire Wire Line
-	4100 2200 4300 2200
-Connection ~ 4300 2200
-Wire Wire Line
-	4300 2200 4300 2500
-Wire Wire Line
-	4100 5600 4300 5600
-Connection ~ 4300 5600
-Wire Wire Line
-	4300 5600 4300 5900
+	4300 3800 4300 4100
 Text Label 7800 1200 2    50   ~ 0
 Motor_A
 $Comp
@@ -1326,67 +698,6 @@ Wire Wire Line
 Wire Wire Line
 	8700 1800 8900 1800
 Connection ~ 8000 2300
-Text Label 10700 1200 0    50   ~ 0
-Motor_B
-$Comp
-L Device:D_Zener_Small D?
-U 1 1 5BA05445
-P 10500 1500
-AR Path="/5BA05445" Ref="D?"  Part="1" 
-AR Path="/5BA04E0C/5BA05445" Ref="D62"  Part="1" 
-F 0 "D62" V 10546 1568 50  0000 L CNN
-F 1 "1N5338B" V 10455 1568 50  0000 L CNN
-F 2 "Diode_THT:D_5W_P5.08mm_Vertical_AnodeUp" V 10500 1500 50  0001 C CNN
-F 3 "~" V 10500 1500 50  0001 C CNN
-	1    10500 1500
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:D_Zener_Small D?
-U 1 1 5BA0544C
-P 10500 2000
-AR Path="/5BA0544C" Ref="D?"  Part="1" 
-AR Path="/5BA04E0C/5BA0544C" Ref="D64"  Part="1" 
-F 0 "D64" V 10454 1932 50  0000 R CNN
-F 1 "1N5338B" V 10545 1932 50  0000 R CNN
-F 2 "Diode_THT:D_5W_P5.08mm_Vertical_AnodeUp" V 10500 2000 50  0001 C CNN
-F 3 "~" V 10500 2000 50  0001 C CNN
-	1    10500 2000
-	0    -1   1    0   
-$EndComp
-$Comp
-L Connector:Screw_Terminal_01x02 J?
-U 1 1 5BA05453
-P 9400 1700
-AR Path="/5BA05453" Ref="J?"  Part="1" 
-AR Path="/5BA04E0C/5BA05453" Ref="J62"  Part="1" 
-F 0 "J62" H 9320 1917 50  0000 C CNN
-F 1 "Motor_B" H 9320 1826 50  0000 C CNN
-F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Vertical" H 9400 1700 50  0001 C CNN
-F 3 "~" H 9400 1700 50  0001 C CNN
-	1    9400 1700
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	10500 1600 10500 1900
-Wire Wire Line
-	10700 1200 10500 1200
-Wire Wire Line
-	10500 1200 10500 1400
-Wire Wire Line
-	9600 1700 9800 1700
-Wire Wire Line
-	9800 1700 9800 1200
-Text Label 10700 2300 0    50   ~ 0
-Motor_~B~
-Wire Wire Line
-	10500 2100 10500 2300
-Wire Wire Line
-	10500 2300 10700 2300
-Wire Wire Line
-	9800 2300 9800 1800
-Wire Wire Line
-	9800 1800 9600 1800
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 5BA05468
@@ -1394,7 +705,7 @@ P 9100 3700
 AR Path="/5BA05468" Ref="J?"  Part="1" 
 AR Path="/5BA04E0C/5BA05468" Ref="J63"  Part="1" 
 F 0 "J63" H 9179 3692 50  0000 L CNN
-F 1 "Test_A_POS_P_Vds" H 9179 3601 50  0000 L CNN
+F 1 "Test_POS_P_Vds" H 9179 3601 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 9100 3700 50  0001 C CNN
 F 3 "~" H 9100 3700 50  0001 C CNN
 	1    9100 3700
@@ -1407,18 +718,18 @@ P 9100 4000
 AR Path="/5BA0546F" Ref="J?"  Part="1" 
 AR Path="/5BA04E0C/5BA0546F" Ref="J64"  Part="1" 
 F 0 "J64" H 9179 3992 50  0000 L CNN
-F 1 "Test_A_POS_N_Vds" H 9179 3901 50  0000 L CNN
+F 1 "Test_POS_N_Vds" H 9179 3901 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 9100 4000 50  0001 C CNN
 F 3 "~" H 9100 4000 50  0001 C CNN
 	1    9100 4000
 	1    0    0    -1  
 $EndComp
 Text Label 8600 3700 2    50   ~ 0
-V+_A
+V+
 Text Label 8600 3900 2    50   ~ 0
 Motor_A
 Text Label 8600 4100 2    50   ~ 0
-V-_A
+V-
 Wire Wire Line
 	8900 3800 8800 3800
 Wire Wire Line
@@ -1432,105 +743,33 @@ Wire Wire Line
 	8800 3900 8800 4000
 Wire Wire Line
 	8600 3700 8900 3700
-$Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 5BBACDA6
-P 10600 4600
-AR Path="/5BBACDA6" Ref="J?"  Part="1" 
-AR Path="/5BA04E0C/5BBACDA6" Ref="J66"  Part="1" 
-F 0 "J66" H 10679 4592 50  0000 L CNN
-F 1 "Test_V-_A" H 10679 4501 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 10600 4600 50  0001 C CNN
-F 3 "~" H 10600 4600 50  0001 C CNN
-	1    10600 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5BBB8E2A
-P 10100 4900
-AR Path="/5BBB8E2A" Ref="#PWR?"  Part="1" 
-AR Path="/5BA04E0C/5BBB8E2A" Ref="#PWR075"  Part="1" 
-F 0 "#PWR075" H 10100 4650 50  0001 C CNN
-F 1 "GND" H 10105 4727 50  0000 C CNN
-F 2 "" H 10100 4900 50  0001 C CNN
-F 3 "" H 10100 4900 50  0001 C CNN
-	1    10100 4900
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	10100 4900 10100 4700
-$Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 5BBCF4FA
-P 10600 4300
-AR Path="/5BBCF4FA" Ref="J?"  Part="1" 
-AR Path="/5BA04E0C/5BBCF4FA" Ref="J65"  Part="1" 
-F 0 "J65" H 10679 4292 50  0000 L CNN
-F 1 "Test_V_A" H 10679 4201 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 10600 4300 50  0001 C CNN
-F 3 "~" H 10600 4300 50  0001 C CNN
-	1    10600 4300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10400 4600 10300 4600
-Wire Wire Line
-	10300 4600 10300 4500
-Wire Wire Line
-	10300 4400 10400 4400
-Text Label 10100 4500 2    50   ~ 0
-V-_A
 Wire Wire Line
 	8600 4100 8900 4100
-Wire Wire Line
-	10100 4500 10300 4500
-Connection ~ 10300 4500
-Wire Wire Line
-	10300 4500 10300 4400
-Wire Wire Line
-	10100 4700 10400 4700
-Text Label 10100 4300 2    50   ~ 0
-V+_A
-Wire Wire Line
-	10100 4300 10400 4300
 $Comp
 L Device:Q_NMOS_GDS Q?
 U 1 1 5BA0522C
-P 4400 2700
+P 4400 4300
 AR Path="/5BA0522C" Ref="Q?"  Part="1" 
 AR Path="/5BA04E0C/5BA0522C" Ref="Q66"  Part="1" 
-F 0 "Q66" H 4606 2746 50  0000 L CNN
-F 1 "FKI10531" H 4606 2655 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220F-3_Vertical" H 4600 2800 50  0001 C CNN
-F 3 "~" H 4400 2700 50  0001 C CNN
-	1    4400 2700
+F 0 "Q66" H 4606 4346 50  0000 L CNN
+F 1 "FKI10531" H 4606 4255 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220F-3_Vertical" H 4600 4400 50  0001 C CNN
+F 3 "~" H 4400 4300 50  0001 C CNN
+	1    4400 4300
 	-1   0    0    -1  
 $EndComp
-Text Label 7800 2900 0    50   ~ 0
-V+_A
-Text Label 7800 3000 0    50   ~ 0
-V-_A
-Text Label 7800 3100 0    50   ~ 0
-V+_B
-Text Label 7800 3200 0    50   ~ 0
-V-_B
-Text HLabel 7600 2900 0    50   Input ~ 0
-V+_A
-Text HLabel 7600 3000 0    50   Input ~ 0
-V-_A
-Text HLabel 7600 3100 0    50   Input ~ 0
-V+_B
-Text HLabel 7600 3200 0    50   Input ~ 0
-V-_B
+Text Label 1600 900  0    50   ~ 0
+V+
+Text Label 1600 1000 0    50   ~ 0
+V-
+Text HLabel 1400 900  0    50   Input ~ 0
+V+
+Text HLabel 1400 1000 0    50   Input ~ 0
+V-
 Wire Wire Line
-	7600 2900 7800 2900
+	1400 900  1600 900 
 Wire Wire Line
-	7800 3000 7600 3000
-Wire Wire Line
-	7600 3100 7800 3100
-Wire Wire Line
-	7800 3200 7600 3200
+	1600 1000 1400 1000
 $Comp
 L Device:R_Small R63
 U 1 1 5BE0BA33
@@ -1565,44 +804,28 @@ Connection ~ 8200 1200
 Wire Wire Line
 	8700 2300 8200 2300
 Connection ~ 8200 2300
-$Comp
-L Device:R_Small R64
-U 1 1 5BE61268
-P 10300 1500
-F 0 "R64" H 10359 1546 50  0000 L CNN
-F 1 "R_snub_B" H 10359 1455 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical" H 10300 1500 50  0001 C CNN
-F 3 "~" H 10300 1500 50  0001 C CNN
-	1    10300 1500
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C62
-U 1 1 5BE6126E
-P 10300 2000
-F 0 "C62" H 10392 2046 50  0000 L CNN
-F 1 "C_snub_B" H 10392 1955 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 10300 2000 50  0001 C CNN
-F 3 "~" H 10300 2000 50  0001 C CNN
-	1    10300 2000
-	-1   0    0    -1  
-$EndComp
+Text Label 1600 1100 0    50   ~ 0
+Gate_POS_P
+Text Label 1600 1200 0    50   ~ 0
+Gate_POS_N
+Text Label 1600 1300 0    50   ~ 0
+Gate_NEG_P
+Text Label 1600 1400 0    50   ~ 0
+Gate_NEG_N
+Text HLabel 1400 1100 0    50   Input ~ 0
+Gate_POS_P
+Text HLabel 1400 1200 0    50   Input ~ 0
+Gate_POS_N
+Text HLabel 1400 1300 0    50   Input ~ 0
+Gate_NEG_P
+Text HLabel 1400 1400 0    50   Input ~ 0
+Gate_NEG_N
 Wire Wire Line
-	10300 2100 10300 2300
+	1400 1100 1600 1100
 Wire Wire Line
-	10300 1600 10300 1900
+	1600 1200 1400 1200
 Wire Wire Line
-	10300 1400 10300 1200
+	1400 1300 1600 1300
 Wire Wire Line
-	10300 1200 9800 1200
-Wire Wire Line
-	9800 2300 10300 2300
-Wire Wire Line
-	10300 1200 10500 1200
-Connection ~ 10300 1200
-Connection ~ 10500 1200
-Wire Wire Line
-	10300 2300 10500 2300
-Connection ~ 10300 2300
-Connection ~ 10500 2300
+	1600 1400 1400 1400
 $EndSCHEMATC
