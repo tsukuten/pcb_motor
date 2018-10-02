@@ -613,7 +613,7 @@ AR Path="/5BA05420" Ref="D?"  Part="1"
 AR Path="/5BA04E0C/5BA05420" Ref="D61"  Part="1" 
 F 0 "D61" V 8046 1568 50  0000 L CNN
 F 1 "1N5338B" V 7955 1568 50  0000 L CNN
-F 2 "Diode_THT:D_5W_P5.08mm_Vertical_AnodeUp" V 8000 1500 50  0001 C CNN
+F 2 "Diode_THT:D_5W_P10.16mm_Horizontal" V 8000 1500 50  0001 C CNN
 F 3 "~" V 8000 1500 50  0001 C CNN
 	1    8000 1500
 	0    -1   -1   0   
@@ -628,7 +628,7 @@ AR Path="/5BA05428" Ref="D?"  Part="1"
 AR Path="/5BA04E0C/5BA05428" Ref="D63"  Part="1" 
 F 0 "D63" V 7954 1932 50  0000 R CNN
 F 1 "1N5338B" V 8045 1932 50  0000 R CNN
-F 2 "Diode_THT:D_5W_P5.08mm_Vertical_AnodeUp" V 8000 2000 50  0001 C CNN
+F 2 "Diode_THT:D_5W_P10.16mm_Horizontal" V 8000 2000 50  0001 C CNN
 F 3 "~" V 8000 2000 50  0001 C CNN
 	1    8000 2000
 	0    1    1    0   
