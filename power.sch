@@ -404,20 +404,6 @@ F 3 "~" H 8800 1800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Q_NMOS_GDS Q?
-U 1 1 5BB7DEB6
-P 9500 1800
-AR Path="/5BB7DEB6" Ref="Q?"  Part="1" 
-AR Path="/5BA04E0C/5BB7DEB6" Ref="Q?"  Part="1" 
-AR Path="/5B9C2C23/5BB7DEB6" Ref="Q41"  Part="1" 
-F 0 "Q41" H 9706 1846 50  0000 L CNN
-F 1 "EKI04027" H 9706 1755 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 9700 1900 50  0001 C CNN
-F 3 "~" H 9500 1800 50  0001 C CNN
-	1    9500 1800
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R_Small R44
 U 1 1 5BB7DEBC
 P 9600 2500
@@ -634,22 +620,6 @@ Wire Wire Line
 Connection ~ 4700 3000
 Wire Wire Line
 	3500 1700 4300 1700
-$Comp
-L Mechanical:Heatsink_Pad HS41
-U 1 1 5BC1071B
-P 10400 1100
-F 0 "HS41" H 10541 1141 50  0000 L CNN
-F 1 "16PB017-01025" H 10541 1050 50  0000 L CNN
-F 2 "Heatsink_GEC:16PB017-01025" H 10412 1050 50  0001 C CNN
-F 3 "~" H 10412 1050 50  0001 C CNN
-	1    10400 1100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10400 1200 10400 1400
-Wire Wire Line
-	10400 1400 10200 1400
-Connection ~ 10200 1400
 Text Label 1800 2100 2    50   ~ 0
 PWR_OK
 Text Label 4300 1700 0    50   ~ 0
@@ -1036,4 +1006,18 @@ Wire Wire Line
 Connection ~ 2200 2200
 Wire Wire Line
 	2200 2200 2200 2400
+$Comp
+L Device:Q_NMOS_GDS Q?
+U 1 1 5BB7DEB6
+P 9500 1800
+AR Path="/5BB7DEB6" Ref="Q?"  Part="1" 
+AR Path="/5BA04E0C/5BB7DEB6" Ref="Q?"  Part="1" 
+AR Path="/5B9C2C23/5BB7DEB6" Ref="Q41"  Part="1" 
+F 0 "Q41" H 9706 1846 50  0000 L CNN
+F 1 "EKI04027" H 9706 1755 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" H 9700 1900 50  0001 C CNN
+F 3 "~" H 9500 1800 50  0001 C CNN
+	1    9500 1800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
