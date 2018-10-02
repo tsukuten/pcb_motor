@@ -75,15 +75,15 @@ Wire Wire Line
 	3200 2350 3200 2150
 Wire Wire Line
 	3200 2150 3000 2150
-Text Label 2600 3200 0    50   ~ 0
+Text Label 2600 3500 0    50   ~ 0
 Gate_A_POS_P
 Wire Wire Line
 	2400 3200 2600 3200
-Text Label 2600 3300 0    50   ~ 0
-Gate_A_POS_N
 Text Label 2600 3400 0    50   ~ 0
+Gate_A_POS_N
+Text Label 2600 3300 0    50   ~ 0
 Gate_A_NEG_P
-Text Label 2600 3500 0    50   ~ 0
+Text Label 2600 3200 0    50   ~ 0
 Gate_A_NEG_N
 Text Label 2600 3600 0    50   ~ 0
 Gate_B_POS_P

@@ -309,28 +309,6 @@ F 3 "~" H 9200 1300 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J42
-U 1 1 5BC5F319
-P 10400 1750
-F 0 "J42" H 10480 1742 50  0000 L CNN
-F 1 "Test_Vds" H 10480 1651 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 10400 1750 50  0001 C CNN
-F 3 "~" H 10400 1750 50  0001 C CNN
-	1    10400 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J44
-U 1 1 5BC5F702
-P 10400 2450
-F 0 "J44" H 10479 2442 50  0000 L CNN
-F 1 "Test_sense" H 10479 2351 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 10400 2450 50  0001 C CNN
-F 3 "~" H 10400 2450 50  0001 C CNN
-	1    10400 2450
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+12V #PWR048
 U 1 1 5BC64EE0
 P 9600 3700
@@ -409,7 +387,7 @@ U 1 1 5BB7DEBC
 P 9600 2500
 F 0 "R44" H 9541 2454 50  0000 R CNN
 F 1 "0R33" H 9541 2545 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical" H 9600 2500 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P25.40mm_Horizontal" H 9600 2500 50  0001 C CNN
 F 3 "~" H 9600 2500 50  0001 C CNN
 	1    9600 2500
 	1    0    0    -1  
@@ -523,14 +501,7 @@ Wire Wire Line
 	9600 3000 9600 2800
 Connection ~ 9600 2800
 Wire Wire Line
-	10200 1850 10200 2200
-Wire Wire Line
-	9600 1400 10200 1400
-Wire Wire Line
-	10200 1750 10200 1400
-Wire Wire Line
 	9400 1400 9600 1400
-Connection ~ 9600 1400
 Wire Wire Line
 	9800 1100 9600 1100
 Wire Wire Line
@@ -541,15 +512,6 @@ Wire Wire Line
 	9600 2800 9100 2800
 Wire Wire Line
 	9100 2800 9100 2600
-Wire Wire Line
-	9600 2200 10200 2200
-Wire Wire Line
-	10200 2550 10200 2800
-Wire Wire Line
-	9600 2800 10200 2800
-Wire Wire Line
-	10200 2450 10200 2200
-Connection ~ 10200 2200
 $Comp
 L power:+5VD #PWR051
 U 1 1 5BCF3F3A
@@ -938,38 +900,6 @@ Wire Wire Line
 Connection ~ 2200 4800
 Wire Wire Line
 	2200 4800 2700 4800
-$Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 5BC6E91A
-P 5700 2200
-AR Path="/5BC6E91A" Ref="J?"  Part="1" 
-AR Path="/5BA04E0C/5BC6E91A" Ref="J?"  Part="1" 
-AR Path="/5B9C2C23/5BC6E91A" Ref="J47"  Part="1" 
-F 0 "J47" H 5779 2192 50  0000 L CNN
-F 1 "Test_V-" H 5779 2101 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 5700 2200 50  0001 C CNN
-F 3 "~" H 5700 2200 50  0001 C CNN
-	1    5700 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5BC6E921
-P 5300 2500
-AR Path="/5BC6E921" Ref="#PWR?"  Part="1" 
-AR Path="/5BA04E0C/5BC6E921" Ref="#PWR?"  Part="1" 
-AR Path="/5B9C2C23/5BC6E921" Ref="#PWR0108"  Part="1" 
-F 0 "#PWR0108" H 5300 2250 50  0001 C CNN
-F 1 "GND" H 5305 2327 50  0000 C CNN
-F 2 "" H 5300 2500 50  0001 C CNN
-F 3 "" H 5300 2500 50  0001 C CNN
-	1    5300 2500
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	5300 2500 5300 2300
-Text Label 5300 2200 2    50   ~ 0
-V-
 Wire Wire Line
 	2200 2000 2200 2200
 Connection ~ 2200 2200
@@ -989,8 +919,4 @@ F 3 "~" H 9500 1800 50  0001 C CNN
 	1    9500 1800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5300 2300 5500 2300
-Wire Wire Line
-	5500 2200 5300 2200
 $EndSCHEMATC

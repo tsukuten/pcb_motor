@@ -673,53 +673,6 @@ Wire Wire Line
 	8700 1800 8900 1800
 Connection ~ 8000 2300
 $Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 5BA05468
-P 9100 3700
-AR Path="/5BA05468" Ref="J?"  Part="1" 
-AR Path="/5BA04E0C/5BA05468" Ref="J63"  Part="1" 
-F 0 "J63" H 9179 3692 50  0000 L CNN
-F 1 "Test_POS_P_Vds" H 9179 3601 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 9100 3700 50  0001 C CNN
-F 3 "~" H 9100 3700 50  0001 C CNN
-	1    9100 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 5BA0546F
-P 9100 4000
-AR Path="/5BA0546F" Ref="J?"  Part="1" 
-AR Path="/5BA04E0C/5BA0546F" Ref="J64"  Part="1" 
-F 0 "J64" H 9179 3992 50  0000 L CNN
-F 1 "Test_POS_N_Vds" H 9179 3901 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 9100 4000 50  0001 C CNN
-F 3 "~" H 9100 4000 50  0001 C CNN
-	1    9100 4000
-	1    0    0    -1  
-$EndComp
-Text Label 8600 3700 2    50   ~ 0
-V+
-Text Label 8600 3900 2    50   ~ 0
-Motor_A
-Text Label 8600 4100 2    50   ~ 0
-V-
-Wire Wire Line
-	8900 3800 8800 3800
-Wire Wire Line
-	8800 3800 8800 3900
-Wire Wire Line
-	8800 4000 8900 4000
-Wire Wire Line
-	8600 3900 8800 3900
-Connection ~ 8800 3900
-Wire Wire Line
-	8800 3900 8800 4000
-Wire Wire Line
-	8600 3700 8900 3700
-Wire Wire Line
-	8600 4100 8900 4100
-$Comp
 L Device:Q_NMOS_GDS Q?
 U 1 1 5BA0522C
 P 4400 4300
