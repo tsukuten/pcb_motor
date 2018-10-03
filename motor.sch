@@ -302,8 +302,6 @@ Wire Wire Line
 	1800 4400 1800 4600
 Text Label 2600 1500 0    50   ~ 0
 ~PS_ON~
-Text Label 2600 1900 0    50   ~ 0
-PWR_OK
 $Comp
 L MCU_Microchip_ATmega:ATmega328P-PU U1
 U 1 1 5BA0B90A
@@ -621,8 +619,6 @@ Wire Wire Line
 Text Notes 3300 1500 0    50   ~ 0
 PWM base frequency is\nOC1, OC2: 32kHz\nOC0: 64kHz\nChanging freq of OC0 and OC2\nwill disturb delay() functions.
 Wire Wire Line
-	2400 1900 2600 1900
-Wire Wire Line
 	2400 1500 2600 1500
 NoConn ~ 2400 1800
 Wire Wire Line
@@ -708,4 +704,5 @@ Wire Wire Line
 	5100 2300 5300 2300
 Wire Wire Line
 	5300 2400 5100 2400
+NoConn ~ 2400 1900
 $EndSCHEMATC
