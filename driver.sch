@@ -613,7 +613,7 @@ AR Path="/5BA05420" Ref="D?"  Part="1"
 AR Path="/5BA04E0C/5BA05420" Ref="D61"  Part="1" 
 F 0 "D61" V 8046 1568 50  0000 L CNN
 F 1 "1N5338B" V 7955 1568 50  0000 L CNN
-F 2 "Diode_THT:D_5W_P10.16mm_Horizontal" V 8000 1500 50  0001 C CNN
+F 2 "Diode_THT:D_5W_P12.70mm_Horizontal" V 8000 1500 50  0001 C CNN
 F 3 "~" V 8000 1500 50  0001 C CNN
 	1    8000 1500
 	0    -1   -1   0   
@@ -628,7 +628,7 @@ AR Path="/5BA05428" Ref="D?"  Part="1"
 AR Path="/5BA04E0C/5BA05428" Ref="D63"  Part="1" 
 F 0 "D63" V 7954 1932 50  0000 R CNN
 F 1 "1N5338B" V 8045 1932 50  0000 R CNN
-F 2 "Diode_THT:D_5W_P10.16mm_Horizontal" V 8000 2000 50  0001 C CNN
+F 2 "Diode_THT:D_5W_P12.70mm_Horizontal" V 8000 2000 50  0001 C CNN
 F 3 "~" V 8000 2000 50  0001 C CNN
 	1    8000 2000
 	0    1    1    0   
@@ -641,7 +641,7 @@ AR Path="/5BA0542F" Ref="J?"  Part="1"
 AR Path="/5BA04E0C/5BA0542F" Ref="J61"  Part="1" 
 F 0 "J61" H 9019 1917 50  0000 C CNN
 F 1 "Motor_A" H 9019 1826 50  0000 C CNN
-F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Vertical" H 9100 1700 50  0001 C CNN
+F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 9100 1700 50  0001 C CNN
 F 3 "~" H 9100 1700 50  0001 C CNN
 	1    9100 1700
 	1    0    0    -1  
@@ -703,7 +703,7 @@ U 1 1 5BE0BA33
 P 8200 1500
 F 0 "R63" H 8259 1546 50  0000 L CNN
 F 1 "R_snub_A" H 8259 1455 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical" H 8200 1500 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" H 8200 1500 50  0001 C CNN
 F 3 "~" H 8200 1500 50  0001 C CNN
 	1    8200 1500
 	1    0    0    -1  

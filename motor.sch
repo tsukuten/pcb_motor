@@ -695,7 +695,7 @@ U 1 1 5BB75011
 P 5500 2300
 F 0 "J3" H 5580 2292 50  0000 L CNN
 F 1 "I2C" H 5580 2201 50  0000 L CNN
-F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Vertical" H 5500 2300 50  0001 C CNN
+F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 5500 2300 50  0001 C CNN
 F 3 "~" H 5500 2300 50  0001 C CNN
 	1    5500 2300
 	1    0    0    -1  
